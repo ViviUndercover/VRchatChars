@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Browndress
+  m_Shader: {fileID: 4800000, guid: efa77a80ca0344749b4f19fdd5891cbe, type: 3}
+  m_Parent: {fileID: 2100000, guid: bab08a6a6edc5614bbea63a20a1c7750, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _1st_ShadeMap:
+        m_Texture: {fileID: 2800000, guid: 47fc33ab136faf84ea3986986d5a8e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _2nd_ShadeMap:
+        m_Texture: {fileID: 2800000, guid: 47fc33ab136faf84ea3986986d5a8e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: 47fc33ab136faf84ea3986986d5a8e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 47fc33ab136faf84ea3986986d5a8e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClippingMask:
+        m_Texture: {fileID: 2800000, guid: 67711444dda9b884486713856237fdaa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 47fc33ab136faf84ea3986986d5a8e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1.026694, y: 1.026694}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 2800000, guid: 47fc33ab136faf84ea3986986d5a8e6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _1st2nd_Shades_Feather: 0.126
+    - _1st_ShadeColor_Feather: 0.168
+    - _1st_ShadeColor_Step: 0.468
+    - _2nd_ShadeColor_Feather: 0.126
+    - _2nd_ShadeColor_Step: 0.216
+    - _BaseColor_Step: 0.468
+    - _BaseShade_Feather: 0.168
+    - _BlurLevelMatcap: 4.08
+    - _BumpScale: 0.25
+    - _CameraRolling_Stabilizer: 1
+    - _HighColor_Power: 0.645
+    - _Is_BlendAddToHiColor: 1
+    - _Is_Filter_LightColor: 1
+    - _Is_SpecularToHighColor: 1
+    - _Is_UseTweakMatCapOnShadow: 1
+    - _MatCapLod: 4.08
+    - _MatCapShadowMask: 1
+    - _MatCapZRotCancel: 1
+    - _RimLight_InsideMask: 0.552
+    - _RimLight_Power: 0.591
+    - _Rotate_MatCapUV: 0.125
+    - _Set_SystemShadowsToBase: 0
+    - _ShadeColor_Step: 0.216
+    - _Shadow2ndBlur: 0.126
+    - _Shadow2ndBorder: 0.153
+    - _ShadowBlur: 0.16799998
+    - _ShadowBorder: 0.384
+    - _ShadowReceive: 0
+    - _Smoothness: 0.70283645
+    - _SpecularBlur: 1
+    - _SpecularBorder: 0.5
+    - _Tweak_MatCapUV: 0.013
+    - _Tweak_MatcapMaskLevel: 0
+    - _Tweak_SystemShadowsLevel: 0.21
+    - _Tweak_transparency: 0
+    - _UseReflection: 1
+    - _Use_1stAs2nd: 0
+    - _Use_BaseAs1st: 0
+    - _utsVersion: 2.08
+    m_Colors:
+    - _1st_ShadeColor: {r: 0.7319941, g: 0.7035422, b: 0.8018868, a: 1}
+    - _2nd_ShadeColor: {r: 0.8486392, g: 0.8282307, b: 0.8867924, a: 1}
+    - _HighColor: {r: 0.3216425, g: 0.28813633, b: 0.3490566, a: 1}
+    - _MatCapColor: {r: 0.29245278, g: 0.21116114, b: 0.18899068, a: 1}
+    - _OutlineColor: {r: 0.19811317, g: 0.15792984, b: 0.17802149, a: 1}
+    - _Outline_Color: {r: 0.1981132, g: 0.15792987, b: 0.17802154, a: 1}
+    - _ReflectionColor: {r: 0.32164246, g: 0.2881363, b: 0.34905657, a: 1}
+    - _RimLightColor: {r: 0.3490566, g: 0.29307583, b: 0.3069391, a: 1}
+    - _Shadow2ndColor: {r: 0.8486392, g: 0.8282307, b: 0.8867924, a: 1}
+    - _ShadowColor: {r: 0.7319941, g: 0.7035422, b: 0.8018868, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Philosophy_EX
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u773C\u93E1"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: grasses
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B9\u30AB\u30FC\u30C8\u5916OFF"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: skirt_out
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B9\u30AB\u30FC\u30C8OFF"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Clothes
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30D6\u30E9\u30A6\u30B9OFF"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Blouse_P
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B7\u30E5\u30FC\u30BAOFF"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: shoes
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30BD\u30C3\u30AF\u30B9OFF"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: socks_off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u8896_\u9577\u3055"
+    icon: {fileID: 0}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Sleeve_short
+    labels: []
+  - name: "\u8896_OFF"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: Sleeve_OFF
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

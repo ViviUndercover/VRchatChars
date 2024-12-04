@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Chiffon_CostumeMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Sailor-Jersey
+    icon: {fileID: 2800000, guid: ed298b452328b2946a53443c0c574f15, type: 3}
+    type: 102
+    parameter:
+      name: Sailor-Jersey
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Bottoms
+    icon: {fileID: 2800000, guid: e7a46d6a84c5139479e3cd9ba35422a8, type: 3}
+    type: 102
+    parameter:
+      name: Bottoms
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Legwarmer
+    icon: {fileID: 2800000, guid: 7ab9cc23b5f65294fb86cbc6b7bcd875, type: 3}
+    type: 102
+    parameter:
+      name: Legwarmer
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Socks
+    icon: {fileID: 2800000, guid: 6071040179e275f4fb959afe8a8c9601, type: 3}
+    type: 102
+    parameter:
+      name: Socks
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Sneaker
+    icon: {fileID: 2800000, guid: 873a05612a3765e4ea05ffa2059d1997, type: 3}
+    type: 102
+    parameter:
+      name: Sneaker
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
