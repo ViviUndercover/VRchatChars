@@ -1,113 +1,113 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: E:/VR things/Lime/Packages/manifest.json
+    m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638622805720000000
+      ticks: 638691040187141686
     m_Hash: 3557380034
   m_LockFileStatus:
-    m_FilePath: E:/VR things/Lime/Packages/packages-lock.json
+    m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638689298395108189
+      ticks: 638691097566074075
     m_Hash: 2878379639
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
-    E:/VR things/Lime/Packages/nadena.dev.modular-avatar/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/nadena.dev.modular-avatar/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638676651280000000
-      m_Hash: 1713467793
-    E:/VR things/Lime/Packages/nadena.dev.ndmf/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/nadena.dev.ndmf/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638674800740000000
-      m_Hash: 2273104422
-    E:/VR things/Lime/Packages/com.vrcfury.temp/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/com.vrcfury.temp/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638677116588512488
-      m_Hash: 360990267
-    E:/VR things/Lime/Packages/vrchat.blackstartx.gesture-manager/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/vrchat.blackstartx.gesture-manager/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638594756860000000
-      m_Hash: 6840552
-    E:/VR things/Lime/Packages/jp.lilxyzw.liltoon/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/jp.lilxyzw.liltoon/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638646914880000000
-      m_Hash: 2890222101
-    E:/VR things/Lime/Packages/world.anlabo.mdnailtool/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/world.anlabo.mdnailtool/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638687391800000000
-      m_Hash: 3384101595
-    E:/VR things/Lime/Packages/com.vrchat.avatars/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/com.vrchat.avatars/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638664443080000000
-      m_Hash: 2002032510
-    E:/VR things/Lime/Packages/dev.vrlabs.av3manager/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/dev.vrlabs.av3manager/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638593138780000000
-      m_Hash: 2860637575
-    E:/VR things/Lime/Packages/com.vrcfury.vrcfury/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/com.vrcfury.vrcfury/package.json
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrcfury.vrcfury/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrcfury.vrcfury/package.json
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638676735200000000
       m_Hash: 2950158744
-    E:/VR things/Lime/Packages/com.vrchat.base/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/com.vrchat.base/package.json
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrchat.avatars/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrchat.avatars/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638664443080000000
+      m_Hash: 2002032510
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrcfury.temp/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrcfury.temp/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638691097543775671
+      m_Hash: 360990267
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrchat.core.vpm-resolver/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrchat.core.vpm-resolver/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638691040187131008
+      m_Hash: 4167369973
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/jp.lilxyzw.liltoon/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/jp.lilxyzw.liltoon/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638646914880000000
+      m_Hash: 2890222101
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/nadena.dev.ndmf/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/nadena.dev.ndmf/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638674800740000000
+      m_Hash: 2273104422
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/vrchat.blackstartx.gesture-manager/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/vrchat.blackstartx.gesture-manager/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638594756860000000
+      m_Hash: 6840552
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/dev.vrlabs.av3manager/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/dev.vrlabs.av3manager/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638593138780000000
+      m_Hash: 2860637575
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/nadena.dev.modular-avatar/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/nadena.dev.modular-avatar/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638676651280000000
+      m_Hash: 1713467793
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/world.anlabo.mdnailtool/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/world.anlabo.mdnailtool/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638687391800000000
+      m_Hash: 3384101595
+    C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrchat.base/package.json:
+      m_FilePath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages/com.vrchat.base/package.json
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 638664443340000000
       m_Hash: 2227529242
-    E:/VR things/Lime/Packages/com.vrchat.core.vpm-resolver/package.json:
-      m_FilePath: E:/VR things/Lime/Packages/com.vrchat.core.vpm-resolver/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638513174840000000
-      m_Hash: 1368506483
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: E:/VR things/Lime/Packages
+m_ProjectPath: C:/Users/kroye/Documents/GitHub/VRchatChars/Lime/Packages
 m_EditorVersion: 2022.3.22f1 (887be4894c44)
 m_ResolvedPackages:
 - packageId: com.unity.ide.rider@3.0.26
@@ -115,7 +115,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.26
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.ide.rider@3.0.26
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.ide.rider@3.0.26
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -220,7 +220,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -309,7 +309,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -377,7 +377,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.29
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.test-framework@1.1.29
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.test-framework@1.1.29
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -516,7 +516,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.6
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.textmeshpro@2.1.6
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.textmeshpro@2.1.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -711,7 +711,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -783,7 +783,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -838,7 +838,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -892,7 +892,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -947,7 +947,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1002,7 +1002,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1057,7 +1057,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1116,7 +1116,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1179,7 +1179,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1235,7 +1235,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1290,7 +1290,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1345,7 +1345,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1400,7 +1400,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1455,7 +1455,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1510,7 +1510,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1569,7 +1569,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1624,7 +1624,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1687,7 +1687,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1745,7 +1745,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1800,7 +1800,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1867,7 +1867,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1922,7 +1922,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1985,7 +1985,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2040,7 +2040,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2103,7 +2103,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2166,7 +2166,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2229,7 +2229,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2308,7 +2308,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2367,7 +2367,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2434,7 +2434,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2503,7 +2503,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2558,7 +2558,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2620,12 +2620,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.vrcfury.temp@file:E:\VR things\Lime\Packages\com.vrcfury.temp
+- packageId: com.vrcfury.temp@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrcfury.temp
   testable: 1
   isDirectDependency: 1
   version: 0.0.0
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\com.vrcfury.temp
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrcfury.temp
   assetPath: Packages/com.vrcfury.temp
   name: com.vrcfury.temp
   displayName: VRCFury Temp Files
@@ -2672,12 +2672,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.vrcfury.vrcfury@file:E:\VR things\Lime\Packages\com.vrcfury.vrcfury
+- packageId: com.vrcfury.vrcfury@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrcfury.vrcfury
   testable: 1
   isDirectDependency: 1
   version: 1.1143.0
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\com.vrcfury.vrcfury
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrcfury.vrcfury
   assetPath: Packages/com.vrcfury.vrcfury
   name: com.vrcfury.vrcfury
   displayName: VRCFury
@@ -2724,12 +2724,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.vrchat.avatars@file:E:\VR things\Lime\Packages\com.vrchat.avatars
+- packageId: com.vrchat.avatars@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrchat.avatars
   testable: 1
   isDirectDependency: 1
   version: 3.7.3
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\com.vrchat.avatars
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrchat.avatars
   assetPath: Packages/com.vrchat.avatars
   name: com.vrchat.avatars
   displayName: VRChat SDK - Avatars
@@ -2776,12 +2776,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.vrchat.base@file:E:\VR things\Lime\Packages\com.vrchat.base
+- packageId: com.vrchat.base@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrchat.base
   testable: 1
   isDirectDependency: 1
   version: 3.7.3
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\com.vrchat.base
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrchat.base
   assetPath: Packages/com.vrchat.base
   name: com.vrchat.base
   displayName: VRChat SDK - Base
@@ -2894,12 +2894,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.vrchat.core.vpm-resolver@file:E:\VR things\Lime\Packages\com.vrchat.core.vpm-resolver
+- packageId: com.vrchat.core.vpm-resolver@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrchat.core.vpm-resolver
   testable: 1
   isDirectDependency: 1
   version: 0.1.29
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\com.vrchat.core.vpm-resolver
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\com.vrchat.core.vpm-resolver
   assetPath: Packages/com.vrchat.core.vpm-resolver
   name: com.vrchat.core.vpm-resolver
   displayName: VRChat Package Resolver Tool
@@ -2950,12 +2950,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: dev.vrlabs.av3manager@file:E:\VR things\Lime\Packages\dev.vrlabs.av3manager
+- packageId: dev.vrlabs.av3manager@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\dev.vrlabs.av3manager
   testable: 1
   isDirectDependency: 1
   version: 2.0.33
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\dev.vrlabs.av3manager
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\dev.vrlabs.av3manager
   assetPath: Packages/dev.vrlabs.av3manager
   name: dev.vrlabs.av3manager
   displayName: Avatars 3.0 Manager
@@ -3002,12 +3002,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: jp.lilxyzw.liltoon@file:E:\VR things\Lime\Packages\jp.lilxyzw.liltoon
+- packageId: jp.lilxyzw.liltoon@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\jp.lilxyzw.liltoon
   testable: 1
   isDirectDependency: 1
   version: 1.8.3
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\jp.lilxyzw.liltoon
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\jp.lilxyzw.liltoon
   assetPath: Packages/jp.lilxyzw.liltoon
   name: jp.lilxyzw.liltoon
   displayName: lilToon
@@ -3057,12 +3057,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: nadena.dev.modular-avatar@file:E:\VR things\Lime\Packages\nadena.dev.modular-avatar
+- packageId: nadena.dev.modular-avatar@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\nadena.dev.modular-avatar
   testable: 1
   isDirectDependency: 1
   version: 1.10.9
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\nadena.dev.modular-avatar
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\nadena.dev.modular-avatar
   assetPath: Packages/nadena.dev.modular-avatar
   name: nadena.dev.modular-avatar
   displayName: Modular Avatar
@@ -3113,12 +3113,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: nadena.dev.ndmf@file:E:\VR things\Lime\Packages\nadena.dev.ndmf
+- packageId: nadena.dev.ndmf@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\nadena.dev.ndmf
   testable: 1
   isDirectDependency: 1
   version: 1.5.7
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\nadena.dev.ndmf
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\nadena.dev.ndmf
   assetPath: Packages/nadena.dev.ndmf
   name: nadena.dev.ndmf
   displayName: Non-Destructive Modular Framework
@@ -3166,12 +3166,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: vrchat.blackstartx.gesture-manager@file:E:\VR things\Lime\Packages\vrchat.blackstartx.gesture-manager
+- packageId: vrchat.blackstartx.gesture-manager@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\vrchat.blackstartx.gesture-manager
   testable: 1
   isDirectDependency: 1
   version: 3.9.2
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\vrchat.blackstartx.gesture-manager
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\vrchat.blackstartx.gesture-manager
   assetPath: Packages/vrchat.blackstartx.gesture-manager
   name: vrchat.blackstartx.gesture-manager
   displayName: Gesture Manager
@@ -3219,12 +3219,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: world.anlabo.mdnailtool@file:E:\VR things\Lime\Packages\world.anlabo.mdnailtool
+- packageId: world.anlabo.mdnailtool@file:C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\world.anlabo.mdnailtool
   testable: 1
   isDirectDependency: 1
   version: 0.8.118
   source: 3
-  resolvedPath: E:\VR things\Lime\Packages\world.anlabo.mdnailtool
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Packages\world.anlabo.mdnailtool
   assetPath: Packages/world.anlabo.mdnailtool
   name: world.anlabo.mdnailtool
   displayName: An-Labo NailTool
@@ -3276,7 +3276,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -3354,7 +3354,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.12
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.burst@1.8.12
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.burst@1.8.12
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3555,7 +3555,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.4
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.collections@2.1.4
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.collections@2.1.4
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -3724,7 +3724,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -3800,7 +3800,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.6
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.timeline@1.7.6
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -3969,7 +3969,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.4.0
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.xr.management@4.4.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.xr.management@4.4.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -4107,7 +4107,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.2.0
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.xr.oculus@4.2.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.xr.oculus@4.2.0
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -4270,7 +4270,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.4.0
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.postprocessing@3.4.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.postprocessing@3.4.0
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -4367,7 +4367,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4426,7 +4426,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4497,7 +4497,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.10
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -4601,7 +4601,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: E:\VR things\Lime\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4
+  resolvedPath: C:\Users\kroye\Documents\GitHub\VRchatChars\Lime\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
