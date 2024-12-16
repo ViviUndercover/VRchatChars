@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UV1_Brown_Light
+  m_Shader: {fileID: 4800000, guid: efa77a80ca0344749b4f19fdd5891cbe, type: 3}
+  m_Parent: {fileID: 2100000, guid: 88bf586f7a4c03042a24d682e4483f40, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: ad05fe3e9ba812a45860c4eab2922f4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ad05fe3e9ba812a45860c4eab2922f4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ad05fe3e9ba812a45860c4eab2922f4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap2ndTex:
+        m_Texture: {fileID: 2800000, guid: 45af2e05913e31e41a6ea9b7c197eb53, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapBlendMask:
+        m_Texture: {fileID: 2800000, guid: 0991b5d0bbcb3f34b9f588c7844f252e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTex:
+        m_Texture: {fileID: 2800000, guid: d8abb36f4cf2b7740b6d1d42f6838690, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _MatCapBlendMode: 0
+    m_Colors:
+    - _BaseColor: {r: 0.9716981, g: 0.937322, b: 0.93044674, a: 1}
+    - _Color: {r: 0.9716981, g: 0.937322, b: 0.93044674, a: 1}
+    - _MainTexHSVG: {r: 0.063, g: 0.23, b: 1, a: 1.45}
+    - _MatCapColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _OutlineColor: {r: 0.5188679, g: 0.36467603, b: 0.3968734, a: 1}
+    - _RimColor: {r: 0.8490566, g: 0.82102174, b: 0.82102174, a: 1}
+    - _RimShadeColor: {r: 0.8962264, g: 0.7905393, b: 0.8116768, a: 1}
+    - _Shadow2ndColor: {r: 0.745283, g: 0.68542475, b: 0.6714578, a: 1}
+    - _ShadowBorderColor: {r: 0.9528302, g: 0.81350124, b: 0.9070545, a: 1}
+    - _ShadowColor: {r: 0.8867924, g: 0.8407796, b: 0.84478074, a: 1}
+  m_BuildTextureStacks: []

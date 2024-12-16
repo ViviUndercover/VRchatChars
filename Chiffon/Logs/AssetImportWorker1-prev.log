@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-E:/VR things/Chiffon
+E:/VR things/VRchatChars/Chiffon
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62268
-Successfully changed project path to: E:/VR things/Chiffon
-E:/VR things/Chiffon
+58177
+Successfully changed project path to: E:/VR things/VRchatChars/Chiffon
+E:/VR things/VRchatChars/Chiffon
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ E:/VR things/Chiffon
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20440] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 1708312740 [EditorId] 1708312740 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36684] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 2219101774 [EditorId] 2219101774 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20440] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 1708312740 [EditorId] 1708312740 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36684] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 2219101774 [EditorId] 2219101774 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 44.49 ms, found 4 plugins.
-Preloading 2 native plugins for Editor in 1.49 ms.
+Refreshing native plugins compatible for Editor in 49.83 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 1.72 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/VR things/Chiffon/Assets
+[Subsystems] Discovering subsystems at path E:/VR things/VRchatChars/Chiffon/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,43 +70,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017012 seconds.
-- Loaded All Assemblies, in  0.473 seconds
+Registered in 0.016440 seconds.
+- Loaded All Assemblies, in  0.480 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.334 seconds
-Domain Reload Profiling: 800ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 802ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (137ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (138ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (159ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (153ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (334ms)
+	FinalizeReload (327ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (259ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (178ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (173ms)
 			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 800ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.961 seconds
-Refreshing native plugins compatible for Editor in 15.50 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.941 seconds
+Refreshing native plugins compatible for Editor in 15.73 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -144,47 +144,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.497 seconds
-Domain Reload Profiling: 4453ms
-	BeginReloadAssembly (191ms)
+- Finished resetting the current domain, in  3.490 seconds
+Domain Reload Profiling: 4426ms
+	BeginReloadAssembly (193ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (641ms)
-		LoadAssemblies (502ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (494ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (254ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (192ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (189ms)
 			ScanForSourceGeneratedMonoScriptInfo (30ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (3498ms)
+	FinalizeReload (3491ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3305ms)
+		SetupLoadedEditorAssemblies (3301ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (667ms)
-			ProcessInitializeOnLoadMethodAttributes (2493ms)
-			AfterProcessingInitializeOnLoad (22ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (744ms)
+			ProcessInitializeOnLoadMethodAttributes (2424ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 21.24 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 23.91 ms, found 4 plugins.
 Preloading 2 native plugins for Editor in 0.09 ms.
 Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 142 unused Assets / (11.6 MB). Loaded Objects now: 3632.
-Memory consumption went from 187.3 MB to 175.7 MB.
-Total: 14.749400 ms (FindLiveObjects: 0.429400 ms CreateObjectMapping: 0.113700 ms MarkObjects: 8.342200 ms  DeleteObjects: 5.861400 ms)
+Memory consumption went from 185.5 MB to 173.9 MB.
+Total: 9.651300 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.084400 ms MarkObjects: 4.834000 ms  DeleteObjects: 4.397100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -201,261 +201,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 197707.546540 seconds.
-  path: Assets/ななは/Lowell/_Material/Two_tone/Sunny_Cloud.mat
-  artifactKey: Guid(37af006659eaeb44d9ebc57b1120e21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ななは/Lowell/_Material/Two_tone/Sunny_Cloud.mat using Guid(37af006659eaeb44d9ebc57b1120e21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a224a0ebcd37242da24ab33721ca9ad6') in 0.637632 seconds
+  Time since last request: 755692.663754 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV1-shirt,shoes/UV1_Black.mat
+  artifactKey: Guid(73b16a0276b1f4945a3d9c4b26cef513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV1-shirt,shoes/UV1_Black.mat using Guid(73b16a0276b1f4945a3d9c4b26cef513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b874b828d090c0b464c4d4d379c2c1fb') in 0.382840 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ななは/Lowell/_Material/Two_tone/Lime.mat
-  artifactKey: Guid(58938de71a02eb64b989396dcca4e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ななは/Lowell/_Material/Two_tone/Lime.mat using Guid(58938de71a02eb64b989396dcca4e574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3772a6a83bf95466359d18cde847cf9a') in 0.067647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ななは/Lowell/_Material/Two_tone/Raven.mat
-  artifactKey: Guid(713028e9076ceb34a90ad6a6227f4b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ななは/Lowell/_Material/Two_tone/Raven.mat using Guid(713028e9076ceb34a90ad6a6227f4b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3abbcba20b2446982fa70bdb5cc4ce2') in 0.029344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ななは/Lowell/_Material/Two_tone/Mystic_Blue.mat
-  artifactKey: Guid(9d7da53834afb1c44af272014f8cf23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ななは/Lowell/_Material/Two_tone/Mystic_Blue.mat using Guid(9d7da53834afb1c44af272014f8cf23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b5c4d2b82538711ca91fc6c6938073') in 0.028664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 15.54 ms, found 4 plugins.
-Preloading 2 native plugins for Editor in 0.08 ms.
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (11.4 MB). Loaded Objects now: 3674.
-Memory consumption went from 125.5 MB to 114.0 MB.
-Total: 10.262600 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.085700 ms MarkObjects: 5.807600 ms  DeleteObjects: 4.042100 ms)
-
-Prepare: number of updated asset objects reloaded= 2
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 445.449188 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/for Chiffon/Offshoulder top dress for Chiffon (Avatar Tools O).prefab
-  artifactKey: Guid(5e50bb985adae334c8db62bad2d0d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/for Chiffon/Offshoulder top dress for Chiffon (Avatar Tools O).prefab using Guid(5e50bb985adae334c8db62bad2d0d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c95a287d45000c1aa66406425de8a9') in 3.093789 seconds
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 120.836299 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon 1stcolor.prefab
-  artifactKey: Guid(216e7e76750ef11479d8538ff086c9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon 1stcolor.prefab using Guid(216e7e76750ef11479d8538ff086c9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f133ee5d37171ef6a328af3efc2328a2') in 4.329569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1806
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon EXcolor.prefab
-  artifactKey: Guid(33be5bc6dc918384c95be220877dbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon EXcolor.prefab using Guid(33be5bc6dc918384c95be220877dbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a253620862534cf7a125eefbf5d8b37') in 0.367734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1810
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon 2ndcolor.prefab
-  artifactKey: Guid(530a1a0da00a8c948a6c087b872ed570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon 2ndcolor.prefab using Guid(530a1a0da00a8c948a6c087b872ed570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccc29f744190f1ead00e431954dc785') in 0.741635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1814
-========================================================================
-Received Import Request.
-  Time since last request: 311.939230 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/A_mat_2.mat
-  artifactKey: Guid(89993761e240edc4694eb1a89e84bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/A_mat_2.mat using Guid(89993761e240edc4694eb1a89e84bf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a3e964663a5a90db1b8ed877f81206') in 0.364256 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/A_mat_outer_2.mat
-  artifactKey: Guid(ab51a098a2e470941bb85ab04a1ffef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/A_mat_outer_2.mat using Guid(ab51a098a2e470941bb85ab04a1ffef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582e72182eae4e8ac186188801ee06c3') in 0.145127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/B_mat_Galaxy.mat
-  artifactKey: Guid(4eabe5e43dbdfe9449376e8811db7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/B_mat_Galaxy.mat using Guid(4eabe5e43dbdfe9449376e8811db7bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a713b7915ed6c9ce6803f36a3afc1726') in 0.049686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/C_mat.mat
-  artifactKey: Guid(0c4b11e070e3f8143a069ba53dbacd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/C_mat.mat using Guid(0c4b11e070e3f8143a069ba53dbacd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2a2c35f730f92dcae9483094a99a8e') in 0.030854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/D_white.mat
-  artifactKey: Guid(63435232c0c057d44aec3dec37086eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/D_white.mat using Guid(63435232c0c057d44aec3dec37086eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6da89891eefd24677e1c6f3e54e3c36') in 0.026446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/C_mat_2.mat
-  artifactKey: Guid(a924adbcfe809714f8730863b9e32279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/C_mat_2.mat using Guid(a924adbcfe809714f8730863b9e32279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f94d4134e63a345c6ea9b9fa7af10cd') in 0.035024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/D_black.mat
-  artifactKey: Guid(d4f774575e7d0554082dd05dc7865827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/D_black.mat using Guid(d4f774575e7d0554082dd05dc7865827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc902e25b8135d8b83fc6b8f2dd3fb0d') in 0.021794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Studio_literature_Ishtar/Philosophy/materials/B_mat.mat
-  artifactKey: Guid(f6c91995453f79544b24ce9d4a929b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Studio_literature_Ishtar/Philosophy/materials/B_mat.mat using Guid(f6c91995453f79544b24ce9d4a929b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb847085b47296f53d90d2abef5d4ee') in 0.035275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 226.817865 seconds.
-  path: Assets/Shorttempleglass_2/megane.png
-  artifactKey: Guid(82d74fc75c2e1a741919c32acc99f33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shorttempleglass_2/megane.png using Guid(82d74fc75c2e1a741919c32acc99f33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddc5cdeb714b8281af2d8d03917f81c') in 0.037792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Shorttempleglass_2/plastic.mat
-  artifactKey: Guid(c9e2b55c8a85f0b4884e4425fa3d998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shorttempleglass_2/plastic.mat using Guid(c9e2b55c8a85f0b4884e4425fa3d998e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d21364119db4ec431ad19344a39bff') in 0.025871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Shorttempleglass_2/Shorttempleglass_3.fbx
-  artifactKey: Guid(d88f525adbc5788489a302820a31b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shorttempleglass_2/Shorttempleglass_3.fbx using Guid(d88f525adbc5788489a302820a31b54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e60474cacfb6440ef915c002725adb') in 0.100205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 10.647315 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/-choker.mat
-  artifactKey: Guid(465344cfb10c7c44d9eefd2cdf320640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/-choker.mat using Guid(465344cfb10c7c44d9eefd2cdf320640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882d85ff8bc77c6de981db9aafc76f54') in 0.029141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/-leggings-black.mat
-  artifactKey: Guid(6709a1f5c871a7d4199de3af06151ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/-leggings-black.mat using Guid(6709a1f5c871a7d4199de3af06151ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d3096351c18c0fcfcc97e90cd6416c') in 0.041945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/all white.mat
-  artifactKey: Guid(0b7b278d45f1a55438a160bdb0b652bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/all white.mat using Guid(0b7b278d45f1a55438a160bdb0b652bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a458ebd167f001ef2cd0734472b1db46') in 0.043405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/all black.mat
-  artifactKey: Guid(edec0fb3ff339b241a9191c859c78826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/all black.mat using Guid(edec0fb3ff339b241a9191c859c78826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22e49b47377e986006f49dfdecf61ba') in 0.041766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/Whiteknittop.mat
-  artifactKey: Guid(7c6c613407450a945b8dca5da8e2c198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/Whiteknittop.mat using Guid(7c6c613407450a945b8dca5da8e2c198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1221a6f1b32f99fde019e13a9b56877') in 0.042622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/Reddress.mat
-  artifactKey: Guid(bab08a6a6edc5614bbea63a20a1c7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/Reddress.mat using Guid(bab08a6a6edc5614bbea63a20a1c7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ac2df50a37dde2f159e54abcc3020d') in 0.042396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/Redknittop.mat
-  artifactKey: Guid(4d1c14052f13e12419cf118f6f3c9f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAYBE's Booth/Offshoulder top dress/Liltoon material/Redknittop.mat using Guid(4d1c14052f13e12419cf118f6f3c9f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291f6f086a832b2e96f20b32af5c606d') in 0.046777 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 18.27 ms, found 4 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (11.4 MB). Loaded Objects now: 3682.
-Memory consumption went from 128.8 MB to 117.4 MB.
-Total: 13.295500 ms (FindLiveObjects: 0.366400 ms CreateObjectMapping: 0.107200 ms MarkObjects: 7.436800 ms  DeleteObjects: 5.383200 ms)
-
-Prepare: number of updated asset objects reloaded= 2
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 9

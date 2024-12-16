@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: Chiffon_KemonoMenu
   m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 9fc183ffb23917c4ab824b33711b9a0c, type: 2}
   controls:
   - name: Kemono_ear
     icon: {fileID: 2800000, guid: d14ae70dc31392042bfe4b99149a7fd4, type: 3}
@@ -28,6 +29,16 @@ MonoBehaviour:
     type: 102
     parameter:
       name: Kemono_tail
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Glasses_switch
+    icon: {fileID: 2800000, guid: 593b19ad55e894f43ac397bb2bcbb4a2, type: 3}
+    type: 102
+    parameter:
+      name: Glasses_switch
     value: 1
     style: 0
     subMenu: {fileID: 0}

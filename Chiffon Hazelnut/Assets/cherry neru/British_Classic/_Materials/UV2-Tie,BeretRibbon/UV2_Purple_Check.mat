@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UV2_Purple_Check
+  m_Shader: {fileID: 4800000, guid: efa77a80ca0344749b4f19fdd5891cbe, type: 3}
+  m_Parent: {fileID: 2100000, guid: c63bddacbc8720d46aee116c889d91e1, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: ab057a4da88ee9d4ca8978be4e2d3b8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ab057a4da88ee9d4ca8978be4e2d3b8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ab057a4da88ee9d4ca8978be4e2d3b8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapBlendMask:
+        m_Texture: {fileID: 2800000, guid: 8344c934cef8fe448b551d018dec856a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTex:
+        m_Texture: {fileID: 2800000, guid: fdd02c025075f6a4b8f94f0887813934, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _MatCap2ndBlendMode: 1
+    - _MatCapLod: 3.65
+    - _MatCapMainStrength: 0.485
+    - _RimBlur: 1
+    - _RimBorder: 0
+    - _RimFresnelPower: 3.2
+    - _RimMainStrength: 0
+    - _ShadowBorder: 0.55
+    - _UseMatCap: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapColor: {r: 0.9433962, g: 0.7075472, b: 0.90028405, a: 1}
+    - _OutlineColor: {r: 0.21233428, g: 0.13995191, b: 0.34905657, a: 1}
+    - _RimColor: {r: 0.5457019, g: 0.49323595, b: 0.6415094, a: 1}
+    - _RimShadeColor: {r: 0.95862645, g: 0.9098039, b: 1, a: 1}
+    - _Shadow2ndColor: {r: 0.69017905, g: 0.5921568, b: 0.7176471, a: 1}
+    - _ShadowBorderColor: {r: 0.5219998, g: 0.3960784, b: 0.6313726, a: 1}
+    - _ShadowColor: {r: 0.8380327, g: 0.75686276, b: 0.8509804, a: 1}
+  m_BuildTextureStacks: []

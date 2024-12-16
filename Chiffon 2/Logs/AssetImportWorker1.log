@@ -1,0 +1,430 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 40895 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/VR things/VRchatChars/Chiffon 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58328
+Successfully changed project path to: E:/VR things/VRchatChars/Chiffon 2
+E:/VR things/VRchatChars/Chiffon 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19008] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 2796111950 [EditorId] 2796111950 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19008] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 2796111950 [EditorId] 2796111950 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 42.43 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 2.17 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/VR things/VRchatChars/Chiffon 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018901 seconds.
+- Loaded All Assemblies, in  0.544 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 921ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (167ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (297ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.273 seconds
+Refreshing native plugins compatible for Editor in 17.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.962 seconds
+Domain Reload Profiling: 5227ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (852ms)
+		LoadAssemblies (687ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3962ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (839ms)
+			ProcessInitializeOnLoadMethodAttributes (2705ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 20.75 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 142 unused Assets / (11.5 MB). Loaded Objects now: 3632.
+Memory consumption went from 187.2 MB to 175.7 MB.
+Total: 11.191800 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.084300 ms MarkObjects: 5.395100 ms  DeleteObjects: 5.390400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 756769.264917 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color2/2P_color White Navy.mat
+  artifactKey: Guid(df6f4cc18144db940ab9176d98fbe7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color2/2P_color White Navy.mat using Guid(df6f4cc18144db940ab9176d98fbe7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e75bb69ba170cad8572309d471afad') in 1.221898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.32 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (11.3 MB). Loaded Objects now: 3674.
+Memory consumption went from 125.4 MB to 114.1 MB.
+Total: 16.744200 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.108400 ms MarkObjects: 9.432900 ms  DeleteObjects: 6.821000 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1256.260385 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color Black Gray.mat
+  artifactKey: Guid(bdbb737078f9d9141bad4dbfaa7488f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color Black Gray.mat using Guid(bdbb737078f9d9141bad4dbfaa7488f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dd9ebd5444df5cb37bc309da2e6acf') in 2.114075 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color Ivory Blue.mat
+  artifactKey: Guid(02d7e83275cabbc42ab4e7285dc96d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color Ivory Blue.mat using Guid(02d7e83275cabbc42ab4e7285dc96d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbabd82fe2443bf2330cf74e0ec7b0f') in 0.083657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color White Blue.mat
+  artifactKey: Guid(6cae7e5ef5ec9394ea9c7d2ed9d7ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color White Blue.mat using Guid(6cae7e5ef5ec9394ea9c7d2ed9d7ea61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60620d91d390b0b611f734141092f13') in 1.602326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color Pink Blue.mat
+  artifactKey: Guid(c97af79e10a5f28429857454f17321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Materials/Point Color/2P_color Pink Blue.mat using Guid(c97af79e10a5f28429857454f17321a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65486b44bf6487449b7c738948436505') in 0.030360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.37 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (11.4 MB). Loaded Objects now: 3674.
+Memory consumption went from 125.5 MB to 114.2 MB.
+Total: 15.197400 ms (FindLiveObjects: 0.405100 ms CreateObjectMapping: 0.136500 ms MarkObjects: 7.971500 ms  DeleteObjects: 6.682400 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1095.196758 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/Black.png
+  artifactKey: Guid(d35a916acf5a8aa42a65b9e15a2280ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/Black.png using Guid(d35a916acf5a8aa42a65b9e15a2280ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2af33ee5c805b2422db192449b6eb4d') in 0.052283 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.090679 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/Gray 2.png
+  artifactKey: Guid(b9cbb3824cfb2dd4183b2884bdd79c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/Gray 2.png using Guid(b9cbb3824cfb2dd4183b2884bdd79c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf9f3fe6c25cfed4143ccb8560b9b33') in 0.024486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/Navy.png
+  artifactKey: Guid(93214fe831fce2e4fbf87b3f900ae954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/Navy.png using Guid(93214fe831fce2e4fbf87b3f900ae954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ab0d998eadb9e4dddf8a0d229c6620') in 0.019783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/Purple.png
+  artifactKey: Guid(f5b76e934108754468555d74cb39fc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/Purple.png using Guid(f5b76e934108754468555d74cb39fc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b075524f9cdbe848efe3fca0bb039626') in 0.018566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/Sky Blue.png
+  artifactKey: Guid(873aef2c31f2db644906ed7f0a3c10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/Sky Blue.png using Guid(873aef2c31f2db644906ed7f0a3c10f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81328d24a101d40951a424d201fd01ab') in 0.022815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/Blue.png
+  artifactKey: Guid(534af13dce9bfe24d8220692a634d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/Blue.png using Guid(534af13dce9bfe24d8220692a634d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511f7e31a9c3eaec2fbc3710a00d6d91') in 0.018734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.282691 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask2.png
+  artifactKey: Guid(78602bd9730c41546a6e79e411555e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask2.png using Guid(78602bd9730c41546a6e79e411555e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c464b59328ed908dbd76f5b466268e0') in 0.015941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask6.png
+  artifactKey: Guid(458fb4a5537a7b9448bb59bb2fa46195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask6.png using Guid(458fb4a5537a7b9448bb59bb2fa46195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331678bc2b243b829c08b2d8df8095d8') in 0.020073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask4.png
+  artifactKey: Guid(03cd13e497310a84a97866656d7a6890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask4.png using Guid(03cd13e497310a84a97866656d7a6890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4684dbab98d2f5d4fc894837bfc1e821') in 0.021433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask5.png
+  artifactKey: Guid(55af635dc28c6f4469116ce8a99f21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask5.png using Guid(55af635dc28c6f4469116ce8a99f21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddd5420766d736fc3c009888e963265') in 0.019210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Matcap.png
+  artifactKey: Guid(9d4f3f15875a0154c9f734a74ec24de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Matcap.png using Guid(9d4f3f15875a0154c9f734a74ec24de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1d9046155d0374969dedc5451a824e') in 0.016145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask7.png
+  artifactKey: Guid(8e035b8abc73fbc46b36450abc17f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Tex/N/Mask7.png using Guid(8e035b8abc73fbc46b36450abc17f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3fed68288d65d7ced38eb8f66958c0') in 0.019206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 929.991705 seconds.
+  path: Assets/#MARIYURI/01. ふわりんツインテール/Materials/Beige.mat
+  artifactKey: Guid(7903e25f1390647409f8448e0c69ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#MARIYURI/01. ふわりんツインテール/Materials/Beige.mat using Guid(7903e25f1390647409f8448e0c69ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3b82c6ea8ac5d0d7ebc0d5fd781224') in 1.746524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 32.927310 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture
+  artifactKey: Guid(2d43f602f71538a4abea358c590e8551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture using Guid(2d43f602f71538a4abea358c590e8551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736648c0f9de95bf5a08be5099b4bcdc') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100569 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Chiffon_Body.png
+  artifactKey: Guid(8de0939778065494ab16e7495df0ade5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Chiffon_Body.png using Guid(8de0939778065494ab16e7495df0ade5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ceae48aa1f39c26610fb6e83b6d52a') in 0.048776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.72 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (11.3 MB). Loaded Objects now: 3676.
+Memory consumption went from 125.6 MB to 114.3 MB.
+Total: 14.942200 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.113600 ms MarkObjects: 8.467600 ms  DeleteObjects: 5.960900 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 

@@ -1,0 +1,2145 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 40895 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/VR things/VRchatChars/Chiffon Hazelnut
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50843
+Successfully changed project path to: E:/VR things/VRchatChars/Chiffon Hazelnut
+E:/VR things/VRchatChars/Chiffon Hazelnut
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8868] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 3239165998 [EditorId] 3239165998 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8868] Host "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 3239165998 [EditorId] 3239165998 [Version] 1048832 [Id] WindowsEditor(7,Nidalee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 41.24 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 1.65 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/VR things/VRchatChars/Chiffon Hazelnut/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016663 seconds.
+- Loaded All Assemblies, in  0.472 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 829ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.968 seconds
+Refreshing native plugins compatible for Editor in 16.78 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.244 seconds
+Domain Reload Profiling: 4207ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (190ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3049ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (667ms)
+			ProcessInitializeOnLoadMethodAttributes (2245ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 16.68 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 142 unused Assets / (11.6 MB). Loaded Objects now: 3632.
+Memory consumption went from 187.3 MB to 175.8 MB.
+Total: 9.646500 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.085400 ms MarkObjects: 5.030600 ms  DeleteObjects: 4.188300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 254574.706434 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair
+  artifactKey: Guid(085e00b48d41c7d4da89a62328aca37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair using Guid(085e00b48d41c7d4da89a62328aca37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72002b4438d0428d8b51c434bb78d131') in 0.003809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.148253 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Ash_Blue.png
+  artifactKey: Guid(9734f49bb0247ae47ba835e3b1d67a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Ash_Blue.png using Guid(9734f49bb0247ae47ba835e3b1d67a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b29f8e829d1be468d6c9da3326a141b') in 0.084278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Light_Pink.png
+  artifactKey: Guid(a2f8c4eddf13d5843ae8ca322d65785a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Light_Pink.png using Guid(a2f8c4eddf13d5843ae8ca322d65785a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2358f5df3dace0908b1dff20312fded') in 0.018012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Mint.png
+  artifactKey: Guid(448e669f5e3da4a4e88db39c9dc6f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Mint.png using Guid(448e669f5e3da4a4e88db39c9dc6f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdd0b93868d1aea398c58c76b50e003') in 0.014380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Blond.png
+  artifactKey: Guid(948d69d4db546964ab53f096814fe852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Blond.png using Guid(948d69d4db546964ab53f096814fe852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3c5aab502da8c561de1abdce048526') in 0.019508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/White.png
+  artifactKey: Guid(f140846c1c96a384c83534e78ae54c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/White.png using Guid(f140846c1c96a384c83534e78ae54c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2e85f5acbc9462086bdf337447d181') in 0.017249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Sky_Blue.png
+  artifactKey: Guid(6b1f55e075eabfd4caf2d430d2b89a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Sky_Blue.png using Guid(6b1f55e075eabfd4caf2d430d2b89a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305e205e4996e7308c17a8199cf79f6e') in 0.018435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Beige.png
+  artifactKey: Guid(55c68b2505e6d5e46828b0ad4cbc00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Beige.png using Guid(55c68b2505e6d5e46828b0ad4cbc00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fe96c68c7d097e7e2c3d439263cb5e') in 0.016867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Coral.png
+  artifactKey: Guid(fd124a5edc7ba324080505991f50ec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Coral.png using Guid(fd124a5edc7ba324080505991f50ec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f30f318296526f8b05b1c306b0c1959') in 0.018110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Ash_Gray.png
+  artifactKey: Guid(01c020b2369fa2041a4e1f8000494024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Ash_Gray.png using Guid(01c020b2369fa2041a4e1f8000494024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a210fcda18dfe3dc705168bec045615') in 0.019713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ななは/Lowell/Texture/Hair/Purple.png
+  artifactKey: Guid(d0545a5826981774684141850d9f3d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Hair/Purple.png using Guid(d0545a5826981774684141850d9f3d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bc3271f4be1c59a2d4b9c20a9a6d3e') in 0.017681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 186.545355 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/Expression/Chiffon_EXParameters.asset
+  artifactKey: Guid(9fc183ffb23917c4ab824b33711b9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/Expression/Chiffon_EXParameters.asset using Guid(9fc183ffb23917c4ab824b33711b9a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5b94e3ea7c7fd64ad308297d8314fe') in 0.001927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 187.075626 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Black 1.mat
+  artifactKey: Guid(be5a600902de1664c9ed11c5b6d13404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Black 1.mat using Guid(be5a600902de1664c9ed11c5b6d13404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7e6b8dc3fb274918770436dad72c68') in 0.336646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Blue.mat
+  artifactKey: Guid(f2bf12f9b89185247bf3f3a1fbe123c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Blue.mat using Guid(f2bf12f9b89185247bf3f3a1fbe123c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ee2f6bc32c86bf2b1f6c94d9d1aa12') in 0.061161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.914925 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Brown.mat
+  artifactKey: Guid(b20805119339e3b41bae7e1f7823a0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Brown.mat using Guid(b20805119339e3b41bae7e1f7823a0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5de39ae1444632ddb90a0cc8008fd2') in 0.039142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.187342 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Brown_Dark.mat
+  artifactKey: Guid(975335e8fc9f6804bb3d0fe51181690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Brown_Dark.mat using Guid(975335e8fc9f6804bb3d0fe51181690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8faa1ca85466d2dbe4454294f30721') in 0.029020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.420991 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Grey.mat
+  artifactKey: Guid(10f1c8939a9d2244a810695f1932eddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Grey.mat using Guid(10f1c8939a9d2244a810695f1932eddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd106f7fdd864798a56a6e7e9b1c98c1a') in 0.027817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.309801 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Grey_Light.mat
+  artifactKey: Guid(b59b8e04b46b53740b34ce24f5bd0888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV5-Corset,Skirt/UV5_Grey_Light.mat using Guid(b59b8e04b46b53740b34ce24f5bd0888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7a39a5eebf63a0712010f7f4c52c7a') in 0.033578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 64.040632 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/UV2-Tie,BeretRibbon/UV2_Black.mat
+  artifactKey: Guid(abe693d95f19a3b4ca888c235a9ff523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/UV2-Tie,BeretRibbon/UV2_Black.mat using Guid(abe693d95f19a3b4ca888c235a9ff523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1df695df2fe2700ac82d0ec51cb2098') in 0.026581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 238.146387 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/fbx
+  artifactKey: Guid(8027ce49f1bfcad4e9ccc58da6c65399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/fbx using Guid(8027ce49f1bfcad4e9ccc58da6c65399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90ad4d0f447df5836dd8c324ac76eb1') in 0.000795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.807190 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon
+  artifactKey: Guid(553c3f0058692bc4eb5fa066a4c003e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon using Guid(553c3f0058692bc4eb5fa066a4c003e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cbeef4fcf073cd4bc6a84205b78b27') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074195 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/Chiffon_philosophy_MA_1.prefab
+  artifactKey: Guid(72acad82c589a96439d8d8ada9ce67d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/Chiffon_philosophy_MA_1.prefab using Guid(72acad82c589a96439d8d8ada9ce67d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2082634e0e65e05f8a58134daee18c26') in 2.341157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4844
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/Chiffon_philosophy_MA_EX.prefab
+  artifactKey: Guid(9695debdf28bf5f499c5ed98216f3c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/Chiffon_philosophy_MA_EX.prefab using Guid(9695debdf28bf5f499c5ed98216f3c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e350972615f915272cf33796e6a6a8e') in 0.630978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4848
+========================================================================
+Received Import Request.
+  Time since last request: 2.428646 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/short
+  artifactKey: Guid(7ab68ac68592a48499a9637d7446db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/short using Guid(7ab68ac68592a48499a9637d7446db39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc36fde2e7ebce1ce3d3d1eb3552d7b5') in 0.002328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.263335 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/short/Chiffon_philosophy_short_MA_1.prefab
+  artifactKey: Guid(0b489d965fa469c429312d342c50b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/short/Chiffon_philosophy_short_MA_1.prefab using Guid(0b489d965fa469c429312d342c50b36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d4d9fab859a5497f23acf616baa787') in 0.627556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4844
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/short/Chiffon_philosophy_short_MA_EX.prefab
+  artifactKey: Guid(fe2dfbeeedc1fa74494e843779964c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_avatar/Chiffon/short/Chiffon_philosophy_short_MA_EX.prefab using Guid(fe2dfbeeedc1fa74494e843779964c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342251aa43e270193d6acc45c5fd8ce1') in 0.600479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4848
+========================================================================
+Received Import Request.
+  Time since last request: 55.769913 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/accessories
+  artifactKey: Guid(b4ab589b68fba1445ba93fed8f7b5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/accessories using Guid(b4ab589b68fba1445ba93fed8f7b5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbd8338f47559f8202cb5eff3743e0d') in 0.001842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.130338 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/accessories/earring.prefab
+  artifactKey: Guid(6d8144f66a3a0d948b6c627326a6f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/accessories/earring.prefab using Guid(6d8144f66a3a0d948b6c627326a6f8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2aeb512ca73295457806367ed8860a') in 0.028232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.026730 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/accessories/grasses.prefab
+  artifactKey: Guid(667f6ec2115b8644b940c17647845c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/accessories/grasses.prefab using Guid(667f6ec2115b8644b940c17647845c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8aec47559a96335c2d1e3cb6699597b') in 0.027263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/accessories/watch.prefab
+  artifactKey: Guid(3027d1a1d94408a48a163276fb8cde02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/accessories/watch.prefab using Guid(3027d1a1d94408a48a163276fb8cde02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe0722b5d8d89aa3cc572c7c7454440') in 0.038613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 37.760641 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon 1stcolor.prefab
+  artifactKey: Guid(216e7e76750ef11479d8538ff086c9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon 1stcolor.prefab using Guid(216e7e76750ef11479d8538ff086c9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfe6907eda7422cb648588f1f799e6f') in 0.580242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1806
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon EXcolor.prefab
+  artifactKey: Guid(33be5bc6dc918384c95be220877dbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/philosophy_Chiffon EXcolor.prefab using Guid(33be5bc6dc918384c95be220877dbd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710154235a6d44cd7ec46fd7af3c46eb') in 0.384015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1810
+========================================================================
+Received Import Request.
+  Time since last request: 3.777728 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/着せ替え/grasschain.prefab
+  artifactKey: Guid(26d87ce0ae94bc34bb1a7ca750e944df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/着せ替え/grasschain.prefab using Guid(26d87ce0ae94bc34bb1a7ca750e944df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9b0e776b509db1ea3ebcffa5d1d578') in 0.030273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/着せ替え/Shorttempleglass_2.prefab
+  artifactKey: Guid(184970bd971e41f4294ef20802107220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/着せ替え/Shorttempleglass_2.prefab using Guid(184970bd971e41f4294ef20802107220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa9cfd55429c6e7f96308158f014504') in 0.016068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/着せ替え/philosophy_Chiffon_着せ替え.prefab
+  artifactKey: Guid(b2f9dadba98e58746bcc9912b9deae36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/着せ替え/philosophy_Chiffon_着せ替え.prefab using Guid(b2f9dadba98e58746bcc9912b9deae36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f520a91344fb856339e2e0839a20f2') in 0.324581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 503
+========================================================================
+Received Import Request.
+  Time since last request: 19.852561 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/short/philosophy_Chiffon_short 1stcolor.prefab
+  artifactKey: Guid(2c35bca7866564e4796384f316a25bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/short/philosophy_Chiffon_short 1stcolor.prefab using Guid(2c35bca7866564e4796384f316a25bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf92dd136d429a07b6b99d66ef95971') in 0.467625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1806
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/short/philosophy_Chiffon_short EXcolor.prefab
+  artifactKey: Guid(d0b7291e6244be941b34d0bb7cb713bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/prefab_cloth/Chiffon/ModularAvatar/short/philosophy_Chiffon_short EXcolor.prefab using Guid(d0b7291e6244be941b34d0bb7cb713bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3371b558ed2b5b3801b8ac44ae1de2') in 0.370521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1810
+========================================================================
+Received Import Request.
+  Time since last request: 177.250159 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/accessories/materials/chrome_black.mat
+  artifactKey: Guid(422a8930a00d91a498652e8e0389787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/accessories/materials/chrome_black.mat using Guid(422a8930a00d91a498652e8e0389787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21c12e2209439847dd8589939affd46') in 0.027505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/accessories/materials/platina.mat
+  artifactKey: Guid(e07a3d459f99091418b986eea5c816c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/accessories/materials/platina.mat using Guid(e07a3d459f99091418b986eea5c816c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11be3886a8417148429a188f3bc40f4b') in 0.020531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 312.094838 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_FX.controller
+  artifactKey: Guid(5a29998690d31c748a39a9fc3d56fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_FX.controller using Guid(5a29998690d31c748a39a9fc3d56fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce732dbc3bc4c7b0b01cdeaadecdbdd4') in 0.026435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 167
+========================================================================
+Received Import Request.
+  Time since last request: 462.415650 seconds.
+  path: Assets/Amatousagi/Chiffon/Chiffon.prefab
+  artifactKey: Guid(217fa8ce35dfe0a42b9e1f182dd9d29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Chiffon.prefab using Guid(217fa8ce35dfe0a42b9e1f182dd9d29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c1dcb92683f422e510a20f8f06aea') in 0.210799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1221
+========================================================================
+Received Import Request.
+  Time since last request: 4.435788 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/FX
+  artifactKey: Guid(f1ebd1cd5c4b07d47a2b667f57d006f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/FX using Guid(f1ebd1cd5c4b07d47a2b667f57d006f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad94b749628615c99abf43a72e84d9f') in 0.000990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.564850 seconds.
+  path: Assets/GoGo/GoLoco/Prefabs/Modular Avatar/IMPORTANT! Place those in your Avatar Descriptor MA.PNG
+  artifactKey: Guid(913e8629bebf63a4d8d2f4e029a8a34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Prefabs/Modular Avatar/IMPORTANT! Place those in your Avatar Descriptor MA.PNG using Guid(913e8629bebf63a4d8d2f4e029a8a34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90897c5a52042ef9af0586fd3dfb0fe9') in 0.015718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001520 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Kemono_ear.png
+  artifactKey: Guid(d14ae70dc31392042bfe4b99149a7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Kemono_ear.png using Guid(d14ae70dc31392042bfe4b99149a7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4a59a723d5790d38e34f0d398f535b') in 0.014629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Legwarmer.png
+  artifactKey: Guid(7ab9cc23b5f65294fb86cbc6b7bcd875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Legwarmer.png using Guid(7ab9cc23b5f65294fb86cbc6b7bcd875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8231364bcbdc182b61f5e94cb825fe') in 0.016175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/laydown_back_relax.PNG
+  artifactKey: Guid(47e7ff1736e2f774db796f3f91a2fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/laydown_back_relax.PNG using Guid(47e7ff1736e2f774db796f3f91a2fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e5e553c4cc49fcd506c6fd36f85341') in 0.028783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030955 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/line blue.png
+  artifactKey: Guid(3cae8dea827497c45935719ce15ffe59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/line blue.png using Guid(3cae8dea827497c45935719ce15ffe59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fe6b8df3acd07cf3425fb4a97f98bd') in 0.024697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.250077 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/line red.png
+  artifactKey: Guid(4c5dfbb4d6769f1479d766ca4fb7ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/line red.png using Guid(4c5dfbb4d6769f1479d766ca4fb7ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7044b68274affea4b8e44cf663ae1e') in 0.024557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.149750 seconds.
+  path: Assets/#Siyu/Hazelnut/Texture/MATCAP.jpg
+  artifactKey: Guid(82d82bd755fe685438443c69c3152a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Siyu/Hazelnut/Texture/MATCAP.jpg using Guid(82d82bd755fe685438443c69c3152a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34abfa182c73790ff5582886d7dda040') in 0.016113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.175138 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/menu_scale.png
+  artifactKey: Guid(98700733f3503c44f8e5b52085aa186c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/menu_scale.png using Guid(98700733f3503c44f8e5b52085aa186c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea76c492bddc9525edbcff4d3262b0f') in 0.021071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.283433 seconds.
+  path: Assets/#Siyu/Hazelnut/Texture/MetalMask.png
+  artifactKey: Guid(eac76c45fc1f9374ca138949e993a0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Siyu/Hazelnut/Texture/MetalMask.png using Guid(eac76c45fc1f9374ca138949e993a0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20292a1238978a9479c657caee2745fb') in 0.017550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.137650 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/pale_blue.png
+  artifactKey: Guid(1a35150c62be80044b3f1796dbcd2cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/pale_blue.png using Guid(1a35150c62be80044b3f1796dbcd2cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb1ab84090109787e9a2bfac83571a8') in 0.016253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001159 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/pattern black.png
+  artifactKey: Guid(aa0075d3ca3393a40b14f1140a90002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/pattern black.png using Guid(aa0075d3ca3393a40b14f1140a90002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dd5f0d42e622fee97e9a67392f540e') in 0.024741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.102853 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/pattern gray.png
+  artifactKey: Guid(4ee62be71c48ac64b92b9f9cc113c4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/pattern gray.png using Guid(4ee62be71c48ac64b92b9f9cc113c4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b475414790240b154e4f11cc6016f0a0') in 0.025099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.481171 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/plain black.png
+  artifactKey: Guid(a2c724e08cfa09941a03aacf4de378a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/plain black.png using Guid(a2c724e08cfa09941a03aacf4de378a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf106c687420d9c3ad43f9477fefb8e4') in 0.019332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002198 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/plain white.png
+  artifactKey: Guid(dc71f334f89fe28489cb512b2701276d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/plain white.png using Guid(dc71f334f89fe28489cb512b2701276d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9550ee7380c7e7487e2311a381f69f86') in 0.023555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.230252 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/prone_push_ups.PNG
+  artifactKey: Guid(fd738b6373f02264b892b00282e7c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/prone_push_ups.PNG using Guid(fd738b6373f02264b892b00282e7c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551cef781d8d034d98776c6f374dd43e') in 0.019326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.135506 seconds.
+  path: Assets/MAYBE's Booth/Offshoulder top dress/TEX/Red knit top black dress.png
+  artifactKey: Guid(1f45f7737b231ba469c8278800174407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Offshoulder top dress/TEX/Red knit top black dress.png using Guid(1f45f7737b231ba469c8278800174407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ff30fb93c2a1e16ce95f62b8678626') in 0.087186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.141983 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/Matcap/Reflection_RoseGold.png
+  artifactKey: Guid(126edba370d55e24091dbbfc4583d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/Matcap/Reflection_RoseGold.png using Guid(126edba370d55e24091dbbfc4583d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039b41dd1b917aa154f541a8d03f0735') in 0.015003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/shiitake.png
+  artifactKey: Guid(d81cb63b881421848a4619de8ec8c3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/shiitake.png using Guid(d81cb63b881421848a4619de8ec8c3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a2c97c5391661fe04d8832452151ed') in 0.013809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.121205 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/shy.png
+  artifactKey: Guid(19854abd36ef21c408ab6ba8050b277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/shy.png using Guid(19854abd36ef21c408ab6ba8050b277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024287df9a67b55c749ffcbb2b94ed94') in 0.014737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.428879 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/matcap/Silver.png
+  artifactKey: Guid(9cb3924614f985a449db84d62cc0f3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/matcap/Silver.png using Guid(9cb3924614f985a449db84d62cc0f3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87f429b7e19964e60ebabf1c456cc9b') in 0.015974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.139017 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Sneaker.png
+  artifactKey: Guid(873a05612a3765e4ea05ffa2059d1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Sneaker.png using Guid(873a05612a3765e4ea05ffa2059d1997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d4758539841a8c301fe116ac8d7b0d') in 0.014331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/UI_ArrowDown_Bifrost.png
+  artifactKey: Guid(6e914a2a89b7944448cf6977578a2ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/UI_ArrowDown_Bifrost.png using Guid(6e914a2a89b7944448cf6977578a2ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05c6e869f31b224c6e70fa61017f8e2') in 0.023272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.359573 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/UI_ArrowUp_Bifrost.png
+  artifactKey: Guid(dd5a7e4ba5dd14e488bc338aa572df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/UI_ArrowUp_Bifrost.png using Guid(dd5a7e4ba5dd14e488bc338aa572df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbb42ca1f841eedbe8eafaa2d62999a') in 0.025180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.250567 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/Normal/UV1.png
+  artifactKey: Guid(1dbe12d7c39bf454d834ce8ba7303e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/Normal/UV1.png using Guid(1dbe12d7c39bf454d834ce8ba7303e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fffe7161c7e8daa0a9b3b2edff39893') in 0.022473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.302776 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/Mask/UV1_Metal_Mask.png
+  artifactKey: Guid(a536266a64d02fd4791d40749ec23a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/Mask/UV1_Metal_Mask.png using Guid(a536266a64d02fd4791d40749ec23a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56068055bf90b39d9f0bdeb0fe7f744') in 0.013951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.429326 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/AO/UV2.png
+  artifactKey: Guid(9c7235b72932c9e4baa653acb2ace0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/AO/UV2.png using Guid(9c7235b72932c9e4baa653acb2ace0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6f3319440fd39cf534f19b0ea40182') in 0.021263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.150724 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Black.png
+  artifactKey: Guid(a2d6095a845ca4a408a35e547079da9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Black.png using Guid(a2d6095a845ca4a408a35e547079da9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9316750005aab68ffaee27332f9afb') in 0.017598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004309 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Black_Check.png
+  artifactKey: Guid(c3a4c9a14247b6b4b8dd6b92ef35192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Black_Check.png using Guid(c3a4c9a14247b6b4b8dd6b92ef35192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99be5173011625f178123d2ee792e82') in 0.039822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016158 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Brown_Check.png
+  artifactKey: Guid(20a4936954f5a504bbcfc522af8c110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Brown_Check.png using Guid(20a4936954f5a504bbcfc522af8c110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f27368da5ecbe05de83f6dc00a969a') in 0.049470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011222 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Brown_Stripe.png
+  artifactKey: Guid(2aa87650a8e991b4c8bd62665c1ccc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Brown_Stripe.png using Guid(2aa87650a8e991b4c8bd62665c1ccc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415376451edfe6ce1edfc817e7e5f10f') in 0.030460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.295114 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Grey_Stripe.png
+  artifactKey: Guid(974e7a70d27b6b54bb9237d4b5a00ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Grey_Stripe.png using Guid(974e7a70d27b6b54bb9237d4b5a00ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f585ab390f99637a28c09396ea38e8') in 0.106366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001108 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Ivory.png
+  artifactKey: Guid(1cca4eb1815ae2b4a8232b3ee6a99213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Ivory.png using Guid(1cca4eb1815ae2b4a8232b3ee6a99213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76414d89ec3dfcca8813ac5d02e4719') in 0.114749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009628 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_NavyPink_Stripe.png
+  artifactKey: Guid(93313d89231c6954ab7c3d8e03927acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_NavyPink_Stripe.png using Guid(93313d89231c6954ab7c3d8e03927acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c8b4c6b72c48a03b196f1e7773a58e') in 0.094732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.245524 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_NavySky_Stripe.png
+  artifactKey: Guid(fa70eba6fcefe584199e9c0acef6b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_NavySky_Stripe.png using Guid(fa70eba6fcefe584199e9c0acef6b839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935a9363775ff708ed3e90660fc1981') in 0.061080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007648 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_NavyWine_Stripe.png
+  artifactKey: Guid(a09a56451a90ca74baabe674d2d03547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_NavyWine_Stripe.png using Guid(a09a56451a90ca74baabe674d2d03547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f80c606ae70e5c1510c1595372170fc') in 0.069767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Pink_Check.png
+  artifactKey: Guid(9c312132cf4cd50489f609eeb2c09c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Pink_Check.png using Guid(9c312132cf4cd50489f609eeb2c09c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27b944963379e20c26a989d24ec284f') in 0.016359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.237466 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Purple_Check.png
+  artifactKey: Guid(ab057a4da88ee9d4ca8978be4e2d3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Purple_Check.png using Guid(ab057a4da88ee9d4ca8978be4e2d3b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dde87aaef6021b05d041bcfdb9642c') in 0.163968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.182035 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Red_Stripe.png
+  artifactKey: Guid(3089c2c71b2f04849a589d551fa3a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Red_Stripe.png using Guid(3089c2c71b2f04849a589d551fa3a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5041e666f24443df049b08d951140fb') in 0.073171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019547 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Redyellow_Stripe.png
+  artifactKey: Guid(e5c531dcd3bf84f438e2c631da1774c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Redyellow_Stripe.png using Guid(e5c531dcd3bf84f438e2c631da1774c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cc646f7935ee35b74aa9a7c051244a') in 0.028852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.075198 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/Mask/UV2_Tie_Mask.png
+  artifactKey: Guid(8344c934cef8fe448b551d018dec856a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/Mask/UV2_Tie_Mask.png using Guid(8344c934cef8fe448b551d018dec856a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5a052de6eed6983256505c3670e707') in 0.013552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007080 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_White.png
+  artifactKey: Guid(dd00dec2d128ad842a4b9ae9897c3416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_White.png using Guid(dd00dec2d128ad842a4b9ae9897c3416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6550df4be2fee454d323f50f747a5cbb') in 0.104590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009378 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_White_Check.png
+  artifactKey: Guid(f2fa3afd305187a478f4e9b11eb59c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_White_Check.png using Guid(f2fa3afd305187a478f4e9b11eb59c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b4f94a045225b290c4223808a5c34b') in 0.083699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004178 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Wine_Stripe.png
+  artifactKey: Guid(136cf9e6fe18548438c57e9f1b0d92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Wine_Stripe.png using Guid(136cf9e6fe18548438c57e9f1b0d92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3508205d9d7907e31329231a71b97e') in 0.026609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.236736 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Wineyellow_Stripe.png
+  artifactKey: Guid(95345026467dba84795ebbf87b9b2294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV2/UV2_Wineyellow_Stripe.png using Guid(95345026467dba84795ebbf87b9b2294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2567124cfb574ca266bc5859e6a4a4') in 0.051050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.271896 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV3/UV3_Black.png
+  artifactKey: Guid(b8d3d7bb54856c84db03bf44e0e68e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV3/UV3_Black.png using Guid(b8d3d7bb54856c84db03bf44e0e68e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c1691ad30dfc63eba4765f685f6a9b') in 0.061292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012504 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV3/UV3_Ivory.png
+  artifactKey: Guid(1de4e2f5b5007dc4895a8ffc63578193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV3/UV3_Ivory.png using Guid(1de4e2f5b5007dc4895a8ffc63578193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad6b99c174955aa01ecd5f28a945bc2') in 0.034570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.190080 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV3/UV3_White.png
+  artifactKey: Guid(3abe67751aac0534897da8b99f644e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV3/UV3_White.png using Guid(3abe67751aac0534897da8b99f644e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc419c1500e63b753142bc800e6710c') in 0.017194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.023126 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV4/UV4_Black 1.png
+  artifactKey: Guid(9f36c013371467d4e812480d153787ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV4/UV4_Black 1.png using Guid(9f36c013371467d4e812480d153787ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0863bf0b1654741bf90e58486108ef7e') in 0.038954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.608782 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV4/UV4_Brown 1.png
+  artifactKey: Guid(0f9047346914e424c990ac9bbf9530ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV4/UV4_Brown 1.png using Guid(0f9047346914e424c990ac9bbf9530ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bf3b191c6110597bd95e46f00f5e9d') in 0.039792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013386 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV4/UV4_Brown 3.png
+  artifactKey: Guid(1a5f2a40c1a92934681bf2fb4b6377aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV4/UV4_Brown 3.png using Guid(1a5f2a40c1a92934681bf2fb4b6377aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e0feca773e1c96bf2ba5e9499fe7f') in 0.046784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.309493 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/Mask/UV4_Stocking_Mask.png
+  artifactKey: Guid(54ae93466c4341f4e846c6d65639e0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/Mask/UV4_Stocking_Mask.png using Guid(54ae93466c4341f4e846c6d65639e0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd197bba651932b33a4c0ca978c82401e') in 0.016623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.137464 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/Normal/UV5.png
+  artifactKey: Guid(6e585bc29d495eb4d939723b5dbf1ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/Normal/UV5.png using Guid(6e585bc29d495eb4d939723b5dbf1ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131069c04ce102641c1fdfa4c1cad289') in 0.016757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Black.png
+  artifactKey: Guid(de242f371781c1340923b4e2ed15e2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Black.png using Guid(de242f371781c1340923b4e2ed15e2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec0938b615af80058ea9570c3973f36') in 0.016892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.318037 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Brown_Check.png
+  artifactKey: Guid(f338193d862eedf43875cb8f7b78ed6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Brown_Check.png using Guid(f338193d862eedf43875cb8f7b78ed6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db868707e3712345f736674b4b6328e6') in 0.020694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.151643 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Pink.png
+  artifactKey: Guid(31b230511b331f24d878b4beae9c3672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Pink.png using Guid(31b230511b331f24d878b4beae9c3672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a346c45a596b6203870fb9ce8292094') in 0.015894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036984 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Purple_Check.png
+  artifactKey: Guid(53f7a85aae33eb84797e039ed4164ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Purple_Check.png using Guid(53f7a85aae33eb84797e039ed4164ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e235c8face760c6517cc85d17cde01') in 0.051942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009224 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Red_Check.png
+  artifactKey: Guid(69696a2ba338222439d8d8e3d0293f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_Red_Check.png using Guid(69696a2ba338222439d8d8e3d0293f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b650ac7c3288990c524731a4140dce91') in 0.031266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.227332 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_White.png
+  artifactKey: Guid(47c7624e379e5df40a3340764341a73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_White.png using Guid(47c7624e379e5df40a3340764341a73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf6f525ff89731d4c3a58f721d6ac90') in 0.015090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009918 seconds.
+  path: Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_White_Check.png
+  artifactKey: Guid(17d98886d18148d4081e054549e3caa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cherry neru/British_Classic/_Materials/Texture/UV5/UV5_White_Check.png using Guid(17d98886d18148d4081e054549e3caa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e1781223925b7b66809f0f0b2e5d90') in 0.041025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.235139 seconds.
+  path: Assets/MAYBE's Booth/Offshoulder top dress/TEX/White knit top black dress.png
+  artifactKey: Guid(98557ea6ce219ea4db7e881fe322f7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Offshoulder top dress/TEX/White knit top black dress.png using Guid(98557ea6ce219ea4db7e881fe322f7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104708813c6fc488ea2d783f31097a14') in 0.023094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.183157 seconds.
+  path: Assets/MAYBE's Booth/Offshoulder top dress/TEX/White top brown dress.png
+  artifactKey: Guid(47fc33ab136faf84ea3986986d5a8e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Offshoulder top dress/TEX/White top brown dress.png using Guid(47fc33ab136faf84ea3986986d5a8e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a2670c2902de85b010cf3f660e99da') in 0.048443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.529870 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_Super_VR_Ball.png
+  artifactKey: Guid(c670e6b06f0f5584b947a197c288ddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_Super_VR_Ball.png using Guid(c670e6b06f0f5584b947a197c288ddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94998d482a75438961123b01dffd6ec') in 0.020558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006932 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_tracker_orange.png
+  artifactKey: Guid(950d152c5e3c76a4ba0f780d328e6aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_tracker_orange.png using Guid(950d152c5e3c76a4ba0f780d328e6aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48022f7a6229396994bc8481569b5eb3') in 0.020893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_zombie_orange.png
+  artifactKey: Guid(72a42c6de69edeb44a908a847276b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_zombie_orange.png using Guid(72a42c6de69edeb44a908a847276b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4278f1dcad8a4da4268d43c75074224') in 0.021832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_w_sitting.PNG
+  artifactKey: Guid(a861d02b09dc9f544b4c5ca8660ff001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_w_sitting.PNG using Guid(a861d02b09dc9f544b4c5ca8660ff001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6756276d578b37ac3bc084db815aab') in 0.022919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.210256 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Sky2[GradationNail].png
+  artifactKey: Guid(0711588b80f133941b303e38ebf2da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Sky2[GradationNail].png using Guid(0711588b80f133941b303e38ebf2da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0316509b06460f0fc87e0f98a32b904f') in 0.017731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007606 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Sky5[GradationNail].png
+  artifactKey: Guid(237a36af34cd17e4690eaafe30257d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Sky5[GradationNail].png using Guid(237a36af34cd17e4690eaafe30257d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe8c5972a9d03994459140fb623a537') in 0.015503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015874 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Violet0[GradationNail].png
+  artifactKey: Guid(8bffd889caa18304ebbe6f98f0acb8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Violet0[GradationNail].png using Guid(8bffd889caa18304ebbe6f98f0acb8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16450758ddea681218a8669da9b1cfec') in 0.015994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013868 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Violet1[GradationNail].png
+  artifactKey: Guid(d1c85922f3e9905439db73cbe6c1bb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Violet1[GradationNail].png using Guid(d1c85922f3e9905439db73cbe6c1bb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a70a7605d6ed03330c4eb966a9ef01') in 0.063869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035024 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Violet5[GradationNail].png
+  artifactKey: Guid(548c9e9247cb8d249882701538c14b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Violet5[GradationNail].png using Guid(548c9e9247cb8d249882701538c14b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070831900357c6876baa6de65b847d9e') in 0.014834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017522 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Water0[GradationNail].png
+  artifactKey: Guid(b3577ba08cc649242ab77c62ed4cd3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Water0[GradationNail].png using Guid(b3577ba08cc649242ab77c62ed4cd3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2a79d31d1891001c52d910f99441b5') in 0.014697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006433 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Water1[GradationNail].png
+  artifactKey: Guid(889a6a647fc61464aac69b5d82c6d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Water1[GradationNail].png using Guid(889a6a647fc61464aac69b5d82c6d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe3ecef9a92699215a791f60bfdf60b') in 0.017755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Water2[GradationNail].png
+  artifactKey: Guid(a1bf1688aeb6dcc478d7f3ad3364170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Point]/[GradationNail]/[tex][SimpleNailSet][point]Water2[GradationNail].png using Guid(a1bf1688aeb6dcc478d7f3ad3364170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c373988fc1092472fb0eda84e0047f49') in 0.015472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.114339 seconds.
+  path: Assets/MAYBE's Booth/Offshoulder top dress/TEX/-choker gold.png
+  artifactKey: Guid(d2127a9b728f82942aefe66b10acfe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Offshoulder top dress/TEX/-choker gold.png using Guid(d2127a9b728f82942aefe66b10acfe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6d03c4b8bc518063aef5aa29e96b40') in 0.014817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009750 seconds.
+  path: Assets/MAYBE's Booth/Offshoulder top dress/TEX/-matcap leggings.jpg
+  artifactKey: Guid(2b5e1562363224d41946826c8c346230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Offshoulder top dress/TEX/-matcap leggings.jpg using Guid(2b5e1562363224d41946826c8c346230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb563e8d51fc38c8c8fe92f534bbf70') in 0.016793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018308 seconds.
+  path: Assets/MAYBE's Booth/Offshoulder top dress/TEX/-normalmap.png
+  artifactKey: Guid(835cf642dc7800b478e53e09012ed3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Offshoulder top dress/TEX/-normalmap.png using Guid(835cf642dc7800b478e53e09012ed3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326b303ab7c5febe3b4b1f6a5a822208') in 0.048043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.917581 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_gesture_fist_double_ggl.png
+  artifactKey: Guid(34a3a23eade87e843b59acab58f556c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_gesture_fist_double_ggl.png using Guid(34a3a23eade87e843b59acab58f556c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdea25ad37c5e48ed2df1593a706706') in 0.019925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.418217 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_short_sitting.PNG
+  artifactKey: Guid(e846673c3faa0c240a111fe5b92b45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_short_sitting.PNG using Guid(e846673c3faa0c240a111fe5b92b45ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ca9976743ae28b106284e3c739ddec') in 0.017771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.700650 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Blue0[GradationNail].png
+  artifactKey: Guid(74b15071bd8b071438543b9a5009475a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Blue0[GradationNail].png using Guid(74b15071bd8b071438543b9a5009475a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623dfeb3033b30bd951d1ca04785b8d6') in 0.016729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027974 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Blue1[GradationNail].png
+  artifactKey: Guid(6cfb93dc8d569e6409272b4ae1661f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Blue1[GradationNail].png using Guid(6cfb93dc8d569e6409272b4ae1661f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62443019cf918b8331e594b6715356b4') in 0.015887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007358 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Blue2[GradationNail].png
+  artifactKey: Guid(abc2a36821c2b2a40a952a4a863ac849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Blue2[GradationNail].png using Guid(abc2a36821c2b2a40a952a4a863ac849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187e244e34085a30830db6614bd5ead5') in 0.015960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013814 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green0[GradationNail].png
+  artifactKey: Guid(5db51d316a76e8d44945e8e5eadaba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green0[GradationNail].png using Guid(5db51d316a76e8d44945e8e5eadaba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f158dc563d0f5ad7f745c8e879fd9618') in 0.017602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.093301 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green1[GradationNail].png
+  artifactKey: Guid(1d4b8eaa1af78f849a4d263f198af121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green1[GradationNail].png using Guid(1d4b8eaa1af78f849a4d263f198af121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25c07a0321af2151171e1bd781d995c') in 0.013814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012774 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green2[GradationNail].png
+  artifactKey: Guid(180fd9be744fed341a37d7f970760f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green2[GradationNail].png using Guid(180fd9be744fed341a37d7f970760f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fe967e701111a935569046856a5e42') in 0.014795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.545531 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green5[GradationNail].png
+  artifactKey: Guid(43b3561fd10b5f14f8c0aba69e2f5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Green5[GradationNail].png using Guid(43b3561fd10b5f14f8c0aba69e2f5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade113c2836570e7a3bcf38d0a8d0a6') in 0.015628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005549 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Mint0[GradationNail].png
+  artifactKey: Guid(48b7645050cb11040ad8c0c8f81755f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Mint0[GradationNail].png using Guid(48b7645050cb11040ad8c0c8f81755f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a07bbe96abe4f314b5bde6b885642fd') in 0.016170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.094388 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Red2[GradationNail].png
+  artifactKey: Guid(1e051179fd55248458b4ee2765530a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Red2[GradationNail].png using Guid(1e051179fd55248458b4ee2765530a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41411290f46769533a3f9307d3607c44') in 0.014024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015353 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Red5[GradationNail].png
+  artifactKey: Guid(5bdf4046290c9cc43a9d4249b1a4a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Red5[GradationNail].png using Guid(5bdf4046290c9cc43a9d4249b1a4a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df456542a089dc4b18dba5f9287235b') in 0.015006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004879 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky0[GradationNail].png
+  artifactKey: Guid(2c5e1becffbaff343a0e1388c85e8eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky0[GradationNail].png using Guid(2c5e1becffbaff343a0e1388c85e8eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace3086a82cd2dc07bd3e771461096b5') in 0.015568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003489 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky1[GradationNail].png
+  artifactKey: Guid(b4691cda654721741b132dabd6551457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky1[GradationNail].png using Guid(b4691cda654721741b132dabd6551457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2d71d5e0d63179d08611c650ba743e') in 0.037063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007614 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky2[GradationNail].png
+  artifactKey: Guid(37a34ffd3e5d9134aadf7715d860f248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky2[GradationNail].png using Guid(37a34ffd3e5d9134aadf7715d860f248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e185418d03299fbbdb973e06c2409b') in 0.014632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009791 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky5[GradationNail].png
+  artifactKey: Guid(a1012908d96343645a78c83017fbb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Sky5[GradationNail].png using Guid(a1012908d96343645a78c83017fbb9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc958d2bebf5b4a6e07b5f080e9dd97') in 0.016952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007506 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Violet0[GradationNail].png
+  artifactKey: Guid(1a7a9f4e82b28724d93bee61ff70a3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Violet0[GradationNail].png using Guid(1a7a9f4e82b28724d93bee61ff70a3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f39e831d6dd506c2b29da89817858') in 0.014676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008205 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Violet1[GradationNail].png
+  artifactKey: Guid(2a3f7a1eb209f704a8b0002c0042da6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Violet1[GradationNail].png using Guid(2a3f7a1eb209f704a8b0002c0042da6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4404dc6e6cd12d126cb6049fd152972c') in 0.015909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000966 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Violet2[GradationNail].png
+  artifactKey: Guid(96f5028bf60a4f049970e6d9cd54acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Oval]/[GradationNail]/[tex][SimpleNailSet][oval]Violet2[GradationNail].png using Guid(96f5028bf60a4f049970e6d9cd54acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b24c777572bb01ff25e07f5fe34d48') in 0.014742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.088592 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/EX_color/B_basecolor3.png
+  artifactKey: Guid(4a866002187f1da47b40ea4944dcb729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/EX_color/B_basecolor3.png using Guid(4a866002187f1da47b40ea4944dcb729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fb4e8a5250b46544e699b323c54b78') in 0.020131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/mask/b_matcap2_mask.png
+  artifactKey: Guid(dcd9e4d815c173148b125baa98f93b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/mask/b_matcap2_mask.png using Guid(dcd9e4d815c173148b125baa98f93b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889bc816bfcc3973c84e524237374924') in 0.018500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/mask/b_reflection_mask.png
+  artifactKey: Guid(23e7c4991f280c949ac83d68e0e0be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/mask/b_reflection_mask.png using Guid(23e7c4991f280c949ac83d68e0e0be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54f656fcfd973e8acdcff57a6738df2') in 0.016623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.073908 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/black.png
+  artifactKey: Guid(d2154609166865341aac051e82b9c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/black.png using Guid(d2154609166865341aac051e82b9c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606e438544ffb1886f5611d5cce44937') in 0.022930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Breast.png
+  artifactKey: Guid(c0e99ea9282991745bef0e38e276dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Attach_Icon/Breast.png using Guid(c0e99ea9282991745bef0e38e276dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80da24f504bff5f760fa42432c3e08b9') in 0.016825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.718536 seconds.
+  path: Assets/ななは/Lowell/Texture/Mask/Alpha3.png
+  artifactKey: Guid(08166d35dc1de3e4d8766080ac766831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ななは/Lowell/Texture/Mask/Alpha3.png using Guid(08166d35dc1de3e4d8766080ac766831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66e2737dc6a10a5823804aa3837acd6') in 0.015699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016413 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/mask/A_mask_matcap.png
+  artifactKey: Guid(28ddd0ceb11595245b1142ab4204b441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/mask/A_mask_matcap.png using Guid(28ddd0ceb11595245b1142ab4204b441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d43ff4df0b765c60bf3eadef95ee3e4') in 0.016382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025092 seconds.
+  path: Assets/MAYBE's Booth/Offshoulder top dress/TEX/all white.png
+  artifactKey: Guid(a4ec868c08d1915418265c9ea0969277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Offshoulder top dress/TEX/all white.png using Guid(a4ec868c08d1915418265c9ea0969277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99db7e4bfe84aac161f70a7686702596') in 0.061389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021047 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/alpha1.png
+  artifactKey: Guid(081bf91ecdeb9f5429a12d5cf9978714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/alpha1.png using Guid(081bf91ecdeb9f5429a12d5cf9978714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aeb0b07dd6de4f98daa477278805722') in 0.076058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013684 seconds.
+  path: Assets/MAYBE's Booth/Summer Frill Dress/TEX/alpha2.png
+  artifactKey: Guid(68bd33f656351864fb9c3e001e4f68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAYBE's Booth/Summer Frill Dress/TEX/alpha2.png using Guid(68bd33f656351864fb9c3e001e4f68a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5757643104d05214c6f99eee8a451f6d') in 0.050406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.095036 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Square]/[GradationNail]/[tex][SimpleNailSet][square]Yellow0[GradationNail].png
+  artifactKey: Guid(62f65b4604361d44ea3908a0f048eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Square]/[GradationNail]/[tex][SimpleNailSet][square]Yellow0[GradationNail].png using Guid(62f65b4604361d44ea3908a0f048eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b7085b029917ac624f85e5a2e34515') in 0.016507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006051 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Square]/[GradationNail]/[tex][SimpleNailSet][square]Yellow1[GradationNail].png
+  artifactKey: Guid(a0d984d00fca19c41badf210acea87ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Square]/[GradationNail]/[tex][SimpleNailSet][square]Yellow1[GradationNail].png using Guid(a0d984d00fca19c41badf210acea87ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9d27f5e2cc87e3a959732b81ec7c6b') in 0.015909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017217 seconds.
+  path: Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Square]/[GradationNail]/[tex][SimpleNailSet][square]Yellow5[GradationNail].png
+  artifactKey: Guid(d30f0225857c5254e84598050f295818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[An-Labo.Virtual]/【Nail】/【SimpleNailSet】/[Data]/[Texture]/[Square]/[GradationNail]/[tex][SimpleNailSet][square]Yellow5[GradationNail].png using Guid(d30f0225857c5254e84598050f295818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcc9442ee5f4f5c7bb8c4f672aeb15b') in 0.015552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/02_color/A_basecolor_2.png
+  artifactKey: Guid(7f912533df41aaf469019a6735015288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/02_color/A_basecolor_2.png using Guid(7f912533df41aaf469019a6735015288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06496e6f8157e81e2315c3f48b10d493') in 0.360238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.265398 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/mask/C_alpha.png
+  artifactKey: Guid(b720e4bd678b06f4ab21a4f5a83752da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/mask/C_alpha.png using Guid(b720e4bd678b06f4ab21a4f5a83752da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c1a7c4ea8f33e99669cb4fbf427c05') in 0.018913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.283874 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/02_color/C_basecolor_2.png
+  artifactKey: Guid(25a8176acb2005747bb50c2066ba47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/02_color/C_basecolor_2.png using Guid(25a8176acb2005747bb50c2066ba47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce342cda595fab95771ea7ce1962416f') in 0.019095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.121107 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/mask/C_matcap_mask.png
+  artifactKey: Guid(96b16155d26a54947854c5256b0c8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/mask/C_matcap_mask.png using Guid(96b16155d26a54947854c5256b0c8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98a84eb3a6474a06816bf9a032677d5') in 0.015483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007924 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Cheese.png
+  artifactKey: Guid(47da1eb3ae3a1b141be9155e8f69f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Cheese.png using Guid(47da1eb3ae3a1b141be9155e8f69f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685e70d156d64931d0c419bc43342a3a') in 0.017999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.222189 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Chiffon_Body.png
+  artifactKey: Guid(8de0939778065494ab16e7495df0ade5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Chiffon_Body.png using Guid(8de0939778065494ab16e7495df0ade5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ceae48aa1f39c26610fb6e83b6d52a') in 0.014815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.113170 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Body_OutlineMask 1.png
+  artifactKey: Guid(41d490d69fac0f44db520a1755c81484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Body_OutlineMask 1.png using Guid(41d490d69fac0f44db520a1755c81484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62cad99f94e5cb7399e04b6e9e87be1') in 0.015849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.352502 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Kaihen/Chiffon_Costume_Kaihen.png
+  artifactKey: Guid(59d5d727fcac1c44fa9b2e399b85dfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Kaihen/Chiffon_Costume_Kaihen.png using Guid(59d5d727fcac1c44fa9b2e399b85dfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86899ad3c97feec325d3bbd641445b9a') in 0.017925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.239393 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Costume_Kaihen_color_2.png
+  artifactKey: Guid(e57bde7b9b9150c4ea7f9a641c82bcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Costume_Kaihen_color_2.png using Guid(e57bde7b9b9150c4ea7f9a641c82bcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d783a6a87c4cd92fbf3ecc088261619') in 0.010413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.227691 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Costume_Mixed_AO.png
+  artifactKey: Guid(c81883bc97ce7ce4ebdb00ec73c366a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Costume_Mixed_AO.png using Guid(c81883bc97ce7ce4ebdb00ec73c366a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cbec7542c2ed8686219b09cd05bbf8') in 0.018441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.192530 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Chiffon_Face_effect.png
+  artifactKey: Guid(0f287a03ca52fad48b96acae15661c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Chiffon_Face_effect.png using Guid(0f287a03ca52fad48b96acae15661c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2969565d2182bbe355fbbec367dc1c') in 0.016063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.137462 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Face_effect_Clipping.png
+  artifactKey: Guid(0843f3e564224dd4184408d0383e2c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Face_effect_Clipping.png using Guid(0843f3e564224dd4184408d0383e2c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5e377f9414b71918119dd4652c9374') in 0.015799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.218452 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Kaihen/Chiffon_Face_Kaihen.png
+  artifactKey: Guid(5df07813a6e76c9468c766fc671e61a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Kaihen/Chiffon_Face_Kaihen.png using Guid(5df07813a6e76c9468c766fc671e61a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8572528d9c39d7504d382647c326460') in 0.021931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.116061 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Face_Kaihen_EyebrowColor.png
+  artifactKey: Guid(478298f132bc0524192d182370d76629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Face_Kaihen_EyebrowColor.png using Guid(478298f132bc0524192d182370d76629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d78c0b5885fa1156a9bf6080637ff55') in 0.008288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.350159 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Face_Kaihen_mask.png
+  artifactKey: Guid(5336bbe546779b547b65e578b9e4529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Face_Kaihen_mask.png using Guid(5336bbe546779b547b65e578b9e4529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52d08f78a7fe2aaac0a6b3e05e8101d') in 0.015508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.123691 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Hair_Clipping.png
+  artifactKey: Guid(87810f0903654b547ba9455f6dbc21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Hair_Clipping.png using Guid(87810f0903654b547ba9455f6dbc21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc85228458357a77ffa3c4d79ba3cd5') in 0.018915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.348615 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Hair_Kaihen_gradation.png
+  artifactKey: Guid(612806829c1decf4caf2f45044838c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Kaihen/Kaihen_Mask/Chiffon_Hair_Kaihen_gradation.png using Guid(612806829c1decf4caf2f45044838c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db0e872fd0c661d438894ceee41caca') in 0.008396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.146355 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Hair_MatcapMask.png
+  artifactKey: Guid(83ef20fdd707bff479279f94d375f86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Mask/Chiffon_Hair_MatcapMask.png using Guid(83ef20fdd707bff479279f94d375f86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a97e5a8a65b086774fd18c44a0988a1') in 0.016279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.365320 seconds.
+  path: Assets/Amatousagi/Chiffon/Texture/Matcap/Chiffon_Matcap_holo.png
+  artifactKey: Guid(5c6a010a30bcb6148a2f9a30be64af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Texture/Matcap/Chiffon_Matcap_holo.png using Guid(5c6a010a30bcb6148a2f9a30be64af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ecb73bbd9ad667aa3e21b1965c90ee') in 0.015657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.132034 seconds.
+  path: Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/D_black.png
+  artifactKey: Guid(f453f6de23c2c0c428fc0c8efb6bf854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studio_literature_Ishtar/Philosophy/texture/base_color/D_black.png using Guid(f453f6de23c2c0c428fc0c8efb6bf854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a82d5fab26b3717485a763c7b52256') in 0.015240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.220786 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/default_expression.png
+  artifactKey: Guid(15822c99c29264f4e8d661888d4dbd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/default_expression.png using Guid(15822c99c29264f4e8d661888d4dbd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527d92a9c9d3f48d2dba25e9175eaa1b') in 0.017028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.464176 seconds.
+  path: Assets/GoGo/GoLoco/Icons/default_expression_green.png
+  artifactKey: Guid(eefe03145c4130649b4ae0ce75f6f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/default_expression_green.png using Guid(eefe03145c4130649b4ae0ce75f6f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de44335bc1ef9b3ee580bc2ee5d70fb') in 0.024172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008432 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Backflip_orange.png
+  artifactKey: Guid(1601492a878be534388fdbdd4b8a07f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Backflip_orange.png using Guid(1601492a878be534388fdbdd4b8a07f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f7aefe44ad683a0945ef65210b1f68') in 0.018446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.100168 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Cheer_orange.png
+  artifactKey: Guid(a19f71d2a99002644b8e21992a574a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Cheer_orange.png using Guid(a19f71d2a99002644b8e21992a574a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceed85acbf19de9c607cee3da7e260b') in 0.020273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.446522 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Clap_orange.png
+  artifactKey: Guid(17eb531e2fcc4e24ba2fac0e81cf95d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Clap_orange.png using Guid(17eb531e2fcc4e24ba2fac0e81cf95d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f54df68d7d71189105841c3ca170d64') in 0.022605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011869 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Dance_orange.png
+  artifactKey: Guid(97da1fba8b93cb84fbc2af98424b9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Dance_orange.png using Guid(97da1fba8b93cb84fbc2af98424b9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63b5d78db3b085c949648a9c3c41250') in 0.018718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.371251 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Die_orange.png
+  artifactKey: Guid(1fa53c971aacb6743b1c8ef1c6aa61dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Die_orange.png using Guid(1fa53c971aacb6743b1c8ef1c6aa61dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f3a3f150543a0ecd415b2a9feba067') in 0.021335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.131936 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Point.png
+  artifactKey: Guid(3e5fca93e549ecf479dd48b611166058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Point.png using Guid(3e5fca93e549ecf479dd48b611166058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c3cbb9d7f0c8139a5cac79c0bc8c59') in 0.019418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001336 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Sadness.png
+  artifactKey: Guid(ea32523783b6c88408fe3a4f22be6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Sadness.png using Guid(ea32523783b6c88408fe3a4f22be6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999c4beaac360aff06148d9d35e04391') in 0.017781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Sadness_orange.png
+  artifactKey: Guid(00eaf0e3685354b4db5489fb00ee19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Sadness_orange.png using Guid(00eaf0e3685354b4db5489fb00ee19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2608e2b119577a6f37736e6c418d7b8b') in 0.017369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.224000 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Wave.png
+  artifactKey: Guid(09459a5d31265654996b8133887f72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emote_Wave.png using Guid(09459a5d31265654996b8133887f72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa66e1075f12f57b846d1c4e71436d3') in 0.017511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004743 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Emotes.png
+  artifactKey: Guid(7a3657baabaa09344bb26f13ee00006b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Emotes.png using Guid(7a3657baabaa09344bb26f13ee00006b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b84eceded8ff68f9d253e8ce713aa0e') in 0.016916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005818 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/Friends_NoneOnline.png
+  artifactKey: Guid(ceba2f3a07b3b2a41ba5d1e496fa5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/Friends_NoneOnline.png using Guid(ceba2f3a07b3b2a41ba5d1e496fa5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1539173b79139d49ed114646cb0306ba') in 0.016365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.050094 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/gesture_finger_gun.png
+  artifactKey: Guid(74f9644577924fb44a24c853ca2ea831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/gesture_finger_gun.png using Guid(74f9644577924fb44a24c853ca2ea831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306b67048827b5b86b89de4bbef73776') in 0.020341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.090141 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/gesture_fist.png
+  artifactKey: Guid(f2f3d7e5365122a4c8c59252b005a4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/gesture_fist.png using Guid(f2f3d7e5365122a4c8c59252b005a4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b355a58b05a5316e8caffb1c200ce47b') in 0.016401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.324885 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/gesture_open.png
+  artifactKey: Guid(34fc1b6443e9731428e167cf1c6a5a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/gesture_open.png using Guid(34fc1b6443e9731428e167cf1c6a5a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0029be74f9e683c66fe5483f1c5d76ac') in 0.018000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.180669 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/gesture_point.png
+  artifactKey: Guid(eb02bc849cd179240b2ca0e4075c7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/gesture_point.png using Guid(eb02bc849cd179240b2ca0e4075c7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e83aeca737a9e1251034cad49c0ceff') in 0.017104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004853 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/gesture_thumbs_up.png
+  artifactKey: Guid(95ffb8f71ce90934797a67f63d2095c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/gesture_thumbs_up.png using Guid(95ffb8f71ce90934797a67f63d2095c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc96a04bddd7787f6dc853d3a52a82ec') in 0.017565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.387239 seconds.
+  path: Assets/GoGo/GoLoco/MainMenu/GoAll.PNG
+  artifactKey: Guid(7f19c4daae3903742804ac4b495fcc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/MainMenu/GoAll.PNG using Guid(7f19c4daae3903742804ac4b495fcc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2feb275862652713e364bb92570717') in 0.017706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012591 seconds.
+  path: Assets/GoGo/GoLoco/MainMenu/GoBeyond.PNG
+  artifactKey: Guid(6568c449b8b2a104eb8d658f973416ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/MainMenu/GoBeyond.PNG using Guid(6568c449b8b2a104eb8d658f973416ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbabfd371fe1cf5116410bc0cb1c19d') in 0.020872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.110668 seconds.
+  path: Assets/GoGo/GoModel/GoBadge/GoLoco_Pin_D.png
+  artifactKey: Guid(97b2de95ef2e6bd4aa1af24e9a9a833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoModel/GoBadge/GoLoco_Pin_D.png using Guid(97b2de95ef2e6bd4aa1af24e9a9a833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63dd4d0abf031b058117fe2b2d3a635') in 0.017726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoGo/GoModel/GoBadge/GoLoco_Pin_M.png
+  artifactKey: Guid(792504fa5a055714dab002d4ab078841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoModel/GoBadge/GoLoco_Pin_M.png using Guid(792504fa5a055714dab002d4ab078841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d96b8a99741ce5566a22c1a737ee2e7') in 0.014235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.233822 seconds.
+  path: Assets/GoGo/GoModel/GoBadge/GoLoco_Pin_N.png
+  artifactKey: Guid(a912ca7ac54e5a443b368d1fe741235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoModel/GoBadge/GoLoco_Pin_N.png using Guid(a912ca7ac54e5a443b368d1fe741235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e7be816917f05484480b95900a99cf') in 0.017316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.165310 seconds.
+  path: Assets/#Siyu/Hazelnut/Texture/Hazelnut_White.png
+  artifactKey: Guid(2d921f350b4ab2a479ba2b19a74118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Siyu/Hazelnut/Texture/Hazelnut_White.png using Guid(2d921f350b4ab2a479ba2b19a74118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b673a39afbfd6768b88c266f930163fe') in 0.020115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.957122 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/hoppe.png
+  artifactKey: Guid(6e514d62e7ee3ab49bd0e46d485ec571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/icon/Face_icon/hoppe.png using Guid(6e514d62e7ee3ab49bd0e46d485ec571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cb70516a41dd5565f8279390f2f832') in 0.021500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.839422 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_afk.png
+  artifactKey: Guid(aae16ec46e06b7745940743025f6eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_afk.png using Guid(aae16ec46e06b7745940743025f6eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a04e92fafbbc151b8a9ed1e3e5190') in 0.022452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.578646 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_chair.png
+  artifactKey: Guid(f2d4c382e83ab2949a14034b72e4de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_chair.png using Guid(f2d4c382e83ab2949a14034b72e4de0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d63649843a2a92573811b8cec63081e') in 0.020364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015045 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_chill_long.png
+  artifactKey: Guid(a2be67d3874a8d34cb42b378f77fcc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_chill_long.png using Guid(a2be67d3874a8d34cb42b378f77fcc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0306118a4e1183eb5189bfff705622b7') in 0.019405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.218512 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_cross_legged.PNG
+  artifactKey: Guid(84f9f436500cf0148a4f898cbadc62bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_cross_legged.PNG using Guid(84f9f436500cf0148a4f898cbadc62bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d9d055584afaf9272d40ed75180a8') in 0.018742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.628992 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_cross_one_leg2.PNG
+  artifactKey: Guid(e1a78f80c3f80854db6e250069ec1024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_cross_one_leg2.PNG using Guid(e1a78f80c3f80854db6e250069ec1024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb5a7eec5d5f7f8b6b3e434999888da') in 0.017946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004516 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_dash.png
+  artifactKey: Guid(cbe3b70740f35f749899790d99b7680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_dash.png using Guid(cbe3b70740f35f749899790d99b7680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f08c188a17ff180b882ad56e0424b') in 0.019362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.092813 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_dash_split.png
+  artifactKey: Guid(a2cd44f55f4e62a46a61d8aa8193eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_dash_split.png using Guid(a2cd44f55f4e62a46a61d8aa8193eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98c06159a5b5aa16157d987b5f8451d') in 0.018711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027189 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_death.png
+  artifactKey: Guid(64685ed7f82b8444087f65e1ee6ad51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_death.png using Guid(64685ed7f82b8444087f65e1ee6ad51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de7046269c5680a48230fb38c2ac07d') in 0.020854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.101255 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_distance.png
+  artifactKey: Guid(98c20911706ea434388d8b38198de375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_distance.png using Guid(98c20911706ea434388d8b38198de375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95fb600b2096901a092e50c451f4990') in 0.018537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003960 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_eye_puppet.png
+  artifactKey: Guid(1529f3906d7f24c4a885762c05d284af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_eye_puppet.png using Guid(1529f3906d7f24c4a885762c05d284af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f621522c4fd02e6f66d41e511a8a24') in 0.017359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001275 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_face_shut.png
+  artifactKey: Guid(7661bffb198911f4c9846c8f02c76b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_face_shut.png using Guid(7661bffb198911f4c9846c8f02c76b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c59165a8781690778a2e46dde1ebbe') in 0.019167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.330188 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_fall_orange.png
+  artifactKey: Guid(53b70f60be157624bb5e86bb4a864450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_fall_orange.png using Guid(53b70f60be157624bb5e86bb4a864450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f0fb56517b323e96e6af07891d62d5') in 0.019399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.247334 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_feet_orange.png
+  artifactKey: Guid(f7434a87cdacd2d48b092fa883555667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_feet_orange.png using Guid(f7434a87cdacd2d48b092fa883555667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff36e89fd0de29fa925f24a364debc8') in 0.021889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.839833 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_fly.png
+  artifactKey: Guid(df730a67a6d75a2469a320a2f59cc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_fly.png using Guid(df730a67a6d75a2469a320a2f59cc3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907a17720264a558ee16f2a6388dd507') in 0.019631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029075 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_gesture_fist_double_orange.png
+  artifactKey: Guid(213ffc3d72bc31b418cc47911001544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_gesture_fist_double_orange.png using Guid(213ffc3d72bc31b418cc47911001544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836a0a09af4d8d910677b6179df728b0') in 0.023886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.320706 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_gesture_fist_left.png
+  artifactKey: Guid(e9f7036c2d987334c90a25bab8c942ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_gesture_fist_left.png using Guid(e9f7036c2d987334c90a25bab8c942ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ee63c9956a520572f2f9a6384470ac') in 0.019365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.168937 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_gesture_fist_right.png
+  artifactKey: Guid(de6b54728d438804a964ff74b79a6347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_gesture_fist_right.png using Guid(de6b54728d438804a964ff74b79a6347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c3823af5ca4a78065aa0418f25a249') in 0.019842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.122035 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_gesture_fist_right_orange_yellow.png
+  artifactKey: Guid(56044108ec6aecd478a0e390fceb8b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_gesture_fist_right_orange_yellow.png using Guid(56044108ec6aecd478a0e390fceb8b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65774a5f763eb75e32b17b400e411c24') in 0.021864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.229440 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_gesture_point_right_orange.png
+  artifactKey: Guid(5c02f444cfb38bf45a37024511d00f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_gesture_point_right_orange.png using Guid(5c02f444cfb38bf45a37024511d00f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265c2fc5085d5c5dcd930f73fa131cb1') in 0.020666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013007 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_gesture_rock_right_orange.png
+  artifactKey: Guid(159024f1f18707c49a0eb64339f8b302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_gesture_rock_right_orange.png using Guid(159024f1f18707c49a0eb64339f8b302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a32addde150c5701771998a088861c') in 0.018063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001751 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_haptics_yellow.png
+  artifactKey: Guid(6354566301074d6439e30a1b0f2ddc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_haptics_yellow.png using Guid(6354566301074d6439e30a1b0f2ddc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d86b0ce33fa82f2a6046f2d9fd93d66') in 0.021439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.325160 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_JSR_Fesitval.png
+  artifactKey: Guid(aa236a84e73f71740bf2ba844e661294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_JSR_Fesitval.png using Guid(aa236a84e73f71740bf2ba844e661294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb7575ceca2536af3d4007c967dc73a') in 0.018907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.151884 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_knees_down.PNG
+  artifactKey: Guid(5583ebe422f5a7342847ea50fe0375c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_knees_down.PNG using Guid(5583ebe422f5a7342847ea50fe0375c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cbba408342d503da628946e1692ab6') in 0.026253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.190565 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_laydown_hip_lift.PNG
+  artifactKey: Guid(77c669b0a911f9947b8af657c99bb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_laydown_hip_lift.PNG using Guid(77c669b0a911f9947b8af657c99bb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62af692f04c61480063ee7813590fc45') in 0.021812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013086 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_laydown_side.PNG
+  artifactKey: Guid(72ac855eefc56a348ad19e6f2f88be45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_laydown_side.PNG using Guid(72ac855eefc56a348ad19e6f2f88be45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6697f7333ce848958cf4037a97d07c92') in 0.019466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.618220 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/icon_light.png
+  artifactKey: Guid(5aeeefac1aa8d024f8cdd6c273f95b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/icon_light.png using Guid(5aeeefac1aa8d024f8cdd6c273f95b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc60affbe5f66bde2623367d5d60daff') in 0.020112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.136320 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_long_sitting.PNG
+  artifactKey: Guid(ad8b22d3261804642b62ea4647f744d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_long_sitting.PNG using Guid(ad8b22d3261804642b62ea4647f744d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e71e490a6c979767c6ec1d1c88a6b86') in 0.018968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.234803 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_blue.png
+  artifactKey: Guid(9ba79281b8605e346827315b3ad406cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_blue.png using Guid(9ba79281b8605e346827315b3ad406cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388b3e7a7ec881c0f8bbff0217e8bf1b') in 0.026313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.569973 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_chair_orange.png
+  artifactKey: Guid(c37461bcf9142f049ad6a46c4b37160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_chair_orange.png using Guid(c37461bcf9142f049ad6a46c4b37160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f596f3984c79e1e5275126aca3f2de4') in 0.019883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014751 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_four_leg.png
+  artifactKey: Guid(9d5a103a823c4c449a844720be6139f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_four_leg.png using Guid(9d5a103a823c4c449a844720be6139f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acbfa091d07fad0926ee433326e2852') in 0.023576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.214892 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_orange_head.png
+  artifactKey: Guid(feda1ceec9254414cab80c7c8822c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_orange_head.png using Guid(feda1ceec9254414cab80c7c8822c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97a4597d285e26659f6622e5a281b66') in 0.023780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.154000 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_pose.png
+  artifactKey: Guid(bd13635d8c263bf48918dd1af297350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_pose.png using Guid(bd13635d8c263bf48918dd1af297350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d8e8b7b7b50615ece9dc1cfaf802ee') in 0.016644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003766 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_scale_25.png
+  artifactKey: Guid(00cbcf1970e567b418ea11efb2d568a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_scale_25.png using Guid(00cbcf1970e567b418ea11efb2d568a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe2133505bff079f6b58989e17f2fea') in 0.019470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.368924 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_sit_floor.png
+  artifactKey: Guid(d9fa9f8e28a985d499f27f4efb420868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_sit_floor.png using Guid(d9fa9f8e28a985d499f27f4efb420868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbba0a7117ce435369c352fdaea653f') in 0.022549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013055 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconVRC/icon_person_tpose.png
+  artifactKey: Guid(16e11dcded7de5c4fb0f365271ca543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconVRC/icon_person_tpose.png using Guid(16e11dcded7de5c4fb0f365271ca543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b3c8345892087d78e36e8222446f70') in 0.018161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.220455 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_person_upright_colored.png
+  artifactKey: Guid(d330693a3b47d0b4681e311dee4c8d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_person_upright_colored.png using Guid(d330693a3b47d0b4681e311dee4c8d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872e1e48afe420887c34d0ce4a41c9a8') in 0.022482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.187054 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_prone_long.PNG
+  artifactKey: Guid(64b712c600c06ce41a8f8a16c30b4046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_prone_long.PNG using Guid(64b712c600c06ce41a8f8a16c30b4046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb29ac111530585b4e6888fd55376a3') in 0.017269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.287026 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_reset.png
+  artifactKey: Guid(1b71f315b8860b747a748869bcea236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_reset.png using Guid(1b71f315b8860b747a748869bcea236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e217cc17ece09a2cc56b092412332f5') in 0.022586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.149500 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_side_sit.PNG
+  artifactKey: Guid(2506f3038f200784080815ab53c3a103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_side_sit.PNG using Guid(2506f3038f200784080815ab53c3a103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3288ba07505ed54e4b5a4603cd620f') in 0.020992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.762138 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_back.PNG
+  artifactKey: Guid(85942749ae3b40a4b817a068db426f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_back.PNG using Guid(85942749ae3b40a4b817a068db426f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c698fe5d57c550b7558176c0ecebb34') in 0.019353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.137774 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_crossed_legs_relax.PNG
+  artifactKey: Guid(25fdf5ad6600c4447bf15ec6da7ff21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_crossed_legs_relax.PNG using Guid(25fdf5ad6600c4447bf15ec6da7ff21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38fe37434b444ec60ac40c589a93721') in 0.020233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.214984 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_side.PNG
+  artifactKey: Guid(093bca7f33c70a349b58c3227cad5a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_side.PNG using Guid(093bca7f33c70a349b58c3227cad5a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75b584f20ebcc2da7b05bc4755d4f27') in 0.022140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.150565 seconds.
+  path: Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_straight.PNG
+  artifactKey: Guid(fb76feaed81172c49a33c7e3df8fa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/IconPose/icon_sit_straight.PNG using Guid(fb76feaed81172c49a33c7e3df8fa18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8251881e3efd933b20e4df44cec9918a') in 0.022021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.302356 seconds.
+  path: Assets/GoGo/GoLoco/Icons/icon_speedometer_orange.png
+  artifactKey: Guid(014fa50269e557d4c871fd354b1164aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoGo/GoLoco/Icons/icon_speedometer_orange.png using Guid(014fa50269e557d4c871fd354b1164aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf847baf35f74aa9b0527a96ff5c37c') in 0.031933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27.165575 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/Expression/Chiffon_KemonoMenu.asset
+  artifactKey: Guid(cd7926e73e426a64887e9e8d2be16ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/Expression/Chiffon_KemonoMenu.asset using Guid(cd7926e73e426a64887e9e8d2be16ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fae7fde39dbb6098b4bfd7173243fa') in 0.003210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 83.967770 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_FX.controller
+  artifactKey: Guid(5a29998690d31c748a39a9fc3d56fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_FX.controller using Guid(5a29998690d31c748a39a9fc3d56fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2217a9da15fe10bbe57b0542b7ae20d2') in 0.026869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 9.571471 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_FX_kisekae.controller
+  artifactKey: Guid(7647ee6a150d6e847b2540cdd16dd222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_FX_kisekae.controller using Guid(7647ee6a150d6e847b2540cdd16dd222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2866378d17e0d7a4e9f601ff6c266d66') in 0.021993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.725682 seconds.
+  path: Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_Gesture.controller
+  artifactKey: Guid(f9a967b986bccb34ebd2b42adaeca68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amatousagi/Chiffon/Animation/Controller/Chiffon_Gesture.controller using Guid(f9a967b986bccb34ebd2b42adaeca68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a39ba778f1f5cd985dae437829dbfe7') in 0.014295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
